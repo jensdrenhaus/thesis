@@ -34,102 +34,108 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2.2}Kommunikationsprotokolle}{13}{section.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.3}Energieverbrauch}{14}{section.2.3}
+\contentsline {subsection}{\numberline {2.2.1}Der IEEE 802.15.4 Standard}{15}{subsection.2.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.1}Energiemodell}{15}{subsection.2.3.1}
+\contentsline {paragraph}{MAC Layer}{16}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3.2}Energiemessung}{16}{subsection.2.3.2}
+\contentsline {paragraph}{PHY Layer}{16}{figure.caption.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.4}Simulationen}{17}{section.2.4}
+\contentsline {section}{\numberline {2.3}Energieverbrauch}{17}{section.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.1}Ereignisorientierte Simulation}{18}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.3.1}Energiemodell}{18}{subsection.2.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4.2}OMNeT++}{19}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.3.2}Energiemessung}{18}{subsection.2.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.5}Hardware}{19}{section.2.5}
+\contentsline {section}{\numberline {2.4}Simulationen}{20}{section.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.1}MSP430}{20}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.4.1}Ereignisorientierte Simulation}{20}{subsection.2.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Interrupts}{22}{lstnumber.2.1.8}
+\contentsline {subsection}{\numberline {2.4.2}OMNeT++}{21}{subsection.2.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Timer}{22}{lstnumber.2.1.8}
+\contentsline {section}{\numberline {2.5}Hardware}{22}{section.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{SPI}{23}{figure.caption.24}
+\contentsline {subsection}{\numberline {2.5.1}MSP430}{23}{subsection.2.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5.2}CC1200 Funkchip}{24}{subsection.2.5.2}
+\contentsline {paragraph}{Interrupts}{24}{lstnumber.2.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.6}Entwicklungssoftware}{26}{section.2.6}
+\contentsline {paragraph}{Timer}{25}{lstnumber.2.1.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Verwandte Arbeiten}}{29}{chapter.3}
+\contentsline {paragraph}{SPI}{25}{figure.caption.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.1}\IeC {\"U}bersicht}{29}{section.3.1}
+\contentsline {subsection}{\numberline {2.5.2}CC1200 Funkchip}{26}{subsection.2.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.2}Drei Projekte im Detail}{32}{section.3.2}
+\contentsline {section}{\numberline {2.6}Entwicklungssoftware}{28}{section.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{GreenOrbs}{32}{section.3.2}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Verwandte Arbeiten}}{31}{chapter.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{inBin Testbed}{33}{section.3.2}
+\contentsline {section}{\numberline {3.1}\IeC {\"U}bersicht}{31}{section.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{PhyNetLab}{34}{section.3.2}
+\contentsline {section}{\numberline {3.2}Drei Projekte im Detail}{34}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Auswahl des Kanalzugriffsverfahrens}}{37}{chapter.4}
+\contentsline {paragraph}{GreenOrbs}{34}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1}ALOHA}{37}{section.4.1}
+\contentsline {paragraph}{inBin Testbed}{35}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Listen Before Talk}{38}{section.4.2}
+\contentsline {paragraph}{PhyNetLab}{36}{section.3.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Carrier Sense Multiple Access/Collision Avoidance}{38}{section.4.3}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Auswahl des Kanalzugriffsverfahrens}}{39}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Schlussfolgerung f\IeC {\"u}r die weitere Untersuchung}{40}{section.4.4}
+\contentsline {section}{\numberline {4.1}ALOHA}{39}{section.4.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Systembeschreibung und Analysemethode}}{43}{chapter.5}
+\contentsline {section}{\numberline {4.2}Listen Before Talk}{40}{section.4.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Ein geeignetes Szenario}{43}{section.5.1}
+\contentsline {section}{\numberline {4.3}Carrier Sense Multiple Access / Collision Avoidance}{40}{section.4.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.1}Anordnung}{44}{subsection.5.1.1}
+\contentsline {section}{\numberline {4.4}Schlussfolgerung f\IeC {\"u}r die weitere Untersuchung}{42}{section.4.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.2}Energieversorgung}{44}{subsection.5.1.2}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Systembeschreibung und Analysemethode}}{45}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.3}Datenaufkommen}{45}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.1}Ein geeignetes Szenario}{45}{section.5.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.4}Kommunikationsfluss}{45}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.1}Anordnung}{46}{subsection.5.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1.5}Kanalmodell}{47}{subsection.5.1.5}
+\contentsline {subsection}{\numberline {5.1.2}Energieversorgung}{46}{subsection.5.1.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Analyse- und Messmethode}{48}{section.5.2}
+\contentsline {subsection}{\numberline {5.1.3}Datenaufkommen}{47}{subsection.5.1.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Product Specific Delivery Ratio}{48}{section.5.2}
+\contentsline {subsection}{\numberline {5.1.4}Kommunikationsfluss}{47}{subsection.5.1.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{Mittlerer Energieverbrauch}{48}{equation.5.2.1}
+\contentsline {subsection}{\numberline {5.1.5}Kanalmodell}{49}{subsection.5.1.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2.1}Messaufbau}{48}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.2}Analyse- und Messmethode}{50}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Simulation}}{51}{chapter.6}
+\contentsline {paragraph}{Product Specific Delivery Ratio}{50}{section.5.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.1}IEEE 802.15.4 Modell}{51}{section.6.1}
+\contentsline {paragraph}{Mittlerer Energieverbrauch}{50}{equation.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Modellanpassungen}{51}{section.6.2}
+\contentsline {subsection}{\numberline {5.2.1}Messaufbau}{50}{subsection.5.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.3}Simulationsergebnisse}{51}{section.6.3}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Simulation}}{53}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Auswertung}}{55}{chapter.7}
+\contentsline {section}{\numberline {6.1}IEEE 802.15.4 Modell}{53}{section.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Prototypische Implementierung}}{57}{chapter.8}
+\contentsline {section}{\numberline {6.2}Modellanpassungen}{53}{section.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.1}Funktioinstest}{57}{section.8.1}
+\contentsline {section}{\numberline {6.3}Simulationsergebnisse}{53}{section.6.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8.2}Messungen}{58}{section.8.2}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Auswertung}}{57}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Zusammenfassung}}{61}{chapter.9}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Prototypische Implementierung}}{59}{chapter.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {CSMA/CA Blockdiagramm}}{63}{appendix.A}
+\contentsline {section}{\numberline {8.1}Funktioinstest}{59}{section.8.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {CC1200 Registerkonfiguration}}{65}{appendix.B}
+\contentsline {section}{\numberline {8.2}Messungen}{60}{section.8.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {CSMA/CA Implementierung}}{71}{appendix.C}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Zusammenfassung}}{63}{chapter.9}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Zufallszahlenerzeugung}}{75}{appendix.D}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {CSMA/CA Blockdiagramm}}{65}{appendix.A}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {CC1200 Registerkonfiguration}}{67}{appendix.B}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {CSMA/CA Implementierung}}{73}{appendix.C}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Zufallszahlenerzeugung}}{77}{appendix.D}
 \defcounter {refsection}{0}\relax 
 \vspace {\beforebibskip }
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\spacedlowsmallcaps {Literatur}}{77}{dummy.4}
+\contentsline {chapter}{\spacedlowsmallcaps {Literatur}}{79}{dummy.4}

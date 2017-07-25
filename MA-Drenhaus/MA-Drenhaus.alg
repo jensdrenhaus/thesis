@@ -1,11 +1,18 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 25.07.2017  15:16:24
-;; Indexstyle: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/SejJcgGzUE", Rawindex: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/3YFjvZhgpt", Output: "MA-Drenhaus.acr"
+;; at 25.07.2017  22:25:36
+;; Indexstyle: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/IwkHOGpfCb", Rawindex: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/mGPp3pGdP8", Output: "MA-Drenhaus.acr"
 
 
 Building indexentry-tree:
 Hierdepth of index is :TREE
 
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -81,12 +88,20 @@ Letter-group: "ÃÐ¨" -> "O"
 Letter-group: "¨ÐÃ" -> "I"
 Letter-group: "»€†" -> "M"
 Letter-group: "´´†" -> "L"
+Letter-group: "Ð€È" -> "S"
+Letter-group: "È€¼" -> "P"
+Letter-group: "†€È" -> "C"
+Letter-group: "††€" -> "C"
+Letter-group: "»†ÈÐÐ€È" -> "M"
+Letter-group: "ÈÐ€È" -> "P"
+Letter-group: "»´»—Ð€È" -> "M"
+Letter-group: "È´»—Ð€È" -> "P"
 Letter-group: "œ—´" -> "F"
 Letter-group: "´—" -> "L"
 Letter-group: "È¨Ã" -> "G"
-Letter-group: "†Èà" -> "C"
 Letter-group: "Ë¨Ð†" -> "R"
 Letter-group: "œË€»" -> "F"
+Letter-group: "†Èà" -> "C"
 Letter-group: "€†" -> "A"
 Letter-group: "¨ÐË" -> "I"
 Letter-group: "ÐÈ¨" -> "S"
@@ -95,7 +110,6 @@ Letter-group: "´„Ú" -> "L"
 Letter-group: "—ÚÐ¨" -> "E"
 Letter-group: "ÐË" -> "S"
 Letter-group: "¨———" -> "I"
-Letter-group: "††€" -> "C"
 Letter-group: "Ëœ¨" -> "R"
 Letter-group: "—È†" -> "E"
 Letter-group: "Ú¨¼" -> "G"
@@ -105,7 +119,7 @@ Letter-group: "6´ÃæÈ€¼" -> "glsnumbers"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "€†" -> "A"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "††€" -> "C"
+Letter-group: "†€È" -> "C"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "—Ð" -> "D"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
@@ -123,11 +137,11 @@ Letter-group: "»€†" -> "M"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "Ã»¼—Ú++" -> "O"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "ÈÐË" -> "P"
+Letter-group: "È€¼" -> "P"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "Ëœ¨" -> "R"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
-Letter-group: "Ð†´" -> "S"
+Letter-group: "Ð€È" -> "S"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
 Letter-group: "Ú»€" -> "T"
 sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)

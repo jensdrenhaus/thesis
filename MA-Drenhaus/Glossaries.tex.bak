@@ -99,6 +99,11 @@
 	{WPAN}%
 	{\eng{\gr{W}ireless \gr{P}ersonal \gr{A}rea \gr{N}etwork}}%
 	
+\newacronym[description={Netzwerk für das unmittelbare Umfeld, engl. \eng{\gr{P}ersonal \gr{A}rea \gr{N}etwork}}]%
+	{pan}%
+	{PAN}%
+	{\eng{\gr{P}ersonal \gr{A}rea \gr{N}etwork}}%
+	
 \newacronym[description={IPv6 für \acs{wpan} mit geringer Leitungsaufnahme, engl. \eng{IPv\gr{6} over \gr{Lo}w Power \gr{WPAN}} \gloref{gl:6lowpan}}]%
 	{6lowpan}%
 	{6LoWPAN}%
@@ -146,30 +151,30 @@ longplural={ereignisorientierten Simulationen, engl. \eng{\gr{D}escrete \gr{E}ve
 	{FSK}%
 	{Frequenzumtastung, engl. \eng{\gr{F}requency \gr{S}hift \gr{K}eying}}%
 
-\newacronym[description={Frequenzvielfachzugriff, engl. \eng{\gr{F}requency-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
+\newacronym[description={Frequenzvielfachzugriff, engl. \eng{\gr{F}requency \gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
 	{fdma}%
 	{FDMA}%
-	{Frequenzvielfachzugriff, engl. \eng{\gr{F}requency-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
+	{Frequenzvielfachzugriff, engl. \eng{\gr{F}requency \gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
 	
-\newacronym[description={Zeitvielfachzugriff, engl. \eng{\gr{T}ime-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
+\newacronym[description={Zeitvielfachzugriff, engl. \eng{\gr{T}ime \gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
 	{tdma}%
 	{TDMA}%
-	{Zeitvielfachzugriff, engl. \eng{\gr{T}ime-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
+	{Zeitvielfachzugriff, engl. \eng{\gr{T}ime \gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
 	
-\newacronym[description={Codevielfachzugriff, engl. \eng{\gr{C}ode-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
+\newacronym[description={Codevielfachzugriff, engl. \eng{\gr{C}ode \gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
 	{cdma}%
 	{CDMA}%
-	{Codevielfachzugriff, engl. \eng{\gr{C}ode-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
+	{Codevielfachzugriff, engl. \eng{\gr{C}ode \gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
 	
-\newacronym[description={Raumfachzugriff, engl. \eng{\gr{S}pace-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
+\newacronym[description={Raumfachzugriff, engl. \eng{\gr{S}pace \gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
 	{sdma}%
 	{SDMA}%
-	{Raumvielfachzugriff, engl. \eng{\gr{S}pace-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
+	{Raumvielfachzugriff, engl. \eng{\gr{S}pace \gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
 	
-\newacronym[description={Vielfachzugriff mit Trägerprüfung, engl. \eng{\gr{C}arrier-\gr{S}ense \gr{M}ultiple \gr{A}ccess}}]%
+\newacronym[description={Vielfachzugriff mit Trägerprüfung, engl. \eng{\gr{C}arrier \gr{S}ense \gr{M}ultiple \gr{A}ccess}}]%
 	{csma1}%
 	{CSMA}%
-	{Vielfachzugriff mit Trägerprüfung, engl. \eng{\gr{C}arrier-\gr{S}ense \gr{M}ultiple \gr{A}ccess}}%
+	{Vielfachzugriff mit Trägerprüfung, engl. \eng{\gr{C}arrier \gr{S}ense \gr{M}ultiple \gr{A}ccess}}%
 	
 \newacronym[description={Auf Deutsch \gqq{Anfrage zum Senden}, engl. \eng{\gr{r}equest \gr{t}o \gr{s}end}}]%
 	{rts}%
@@ -240,8 +245,37 @@ longplural={ereignisorientierten Simulationen, engl. \eng{\gr{D}escrete \gr{E}ve
 	{cs}%
 	{CS}%
 	{\eng{\gr{C}hip \gr{S}elect}}%
+	
+\newacronym[description={Dienstzugangspunkt, engl. \eng{\gr{S}ervice \gr{A}ccess \gr{P}oint}}]%
+	{sap}%
+	{SAP}%
+	{\eng{\gr{S}ervice \gr{A}ccess \gr{P}oint}}%
+	
+\newacronym[description={Engl. \eng{\gr{P}HY \gr{D}ata \gr{S}ervice \gr{A}ccess \gr{P}oint}}]%
+	{pd-sap}%
+	{PD-SAP}%
+	{\eng{\gr{P}HY \gr{D}ata \gr{SAP}}}%
 
-		
+\newacronym[description={Engl. \eng{\gr{P}hysical \gr{L}ayer \gr{M}anagement \gr{E}ntity \gr{S}ervice \gr{A}ccess \gr{P}oint}}]%
+	{plme-sap}%
+	{PLME-SAP}%
+	{\eng{\gr{P}hysical \gr{L}ayer \gr{M}anagement \gr{E}ntity \gr{SAP}}}%
+	
+\newacronym[description={Engl. \eng{\gr{M}AC \gr{C}ommom \gr{P}art \gr{S}ublayer \gr{S}ervice \gr{A}ccess \gr{P}oint}}]%
+	{mcps-sap}%
+	{MCPS-SAP}%
+	{\eng{\gr{M}AC \gr{C}ommom \gr{P}art \gr{S}ublayer \gr{SAP}}}%
+	
+\newacronym[description={Engl. \eng{\gr{M}AC Sub\gr{l}ayer \gr{M}anagement \gr{E}ntity \gr{S}ervice \gr{A}ccess \gr{P}oint}}]%
+	{mlme-sap}%
+	{MLME-SAP}%
+	{\eng{\gr{M}AC Sub\gr{l}ayer \gr{M}anagement \gr{E}ntity \gr{SAP}}}%
+	
+\newacronym[description={Konkurrenzzugriff Zeitraum, engl. \eng{\gr{C}ontention \gr{A}ccess \gr{P}eriod}}]%
+	{cap}%
+	{CAP}%
+	{\eng{\gr{C}ontention \gr{A}ccess \gr{P}eriod}}%
+
 %************************************************
 %Glossar
 %************************************************

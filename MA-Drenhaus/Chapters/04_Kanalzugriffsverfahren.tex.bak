@@ -4,7 +4,7 @@
 
 Nach dem zunächst kurz das ALOHA Protokoll als klassisches Kanalzugriffverfahren beschrieben wird, stellt dieses Kapitel zwei etablierte Verfahren im Detail vor.
 
-\section{ALOHA}
+\section{ALOHA}\label{kap:zugriffsverfahren_sec:aloha}
 Als traditionelles Beispiel des Kanalzugriffes sei hier das \emph{ALOHA}-Protokoll aufgeführt. Kern des Verfahrens ist ein zufälliger Kanalzugriff der Netzwerkteilnehmer. Dabei wird davon ausgegangen, dass die Zwischenankunftszeit der gesendeten Pakete negativ exponentiell verteilt ist. Wird eine Kollision erkannt, wiederholt sich der Sendevorgang. In \autoref{fig:aloha} ist dieser Fall bei dem ersten bzw. zweiten Sendeversuch der Geräte A und B zu sehen. Die Geräte schließen auf eine Kollision, da nach einer bestimmten Zeit eine Bestätigung des Empfängers ausbleibt. Die Übertragung wird dann jeweils nach einer zufälligen Zeit wiederholt. Der maximale Durchsatz liegt dabei bei ca. 18 Prozent \citep{aloha}. 
 
 \begin{figure}[bth]
@@ -15,7 +15,7 @@ Als traditionelles Beispiel des Kanalzugriffes sei hier das \emph{ALOHA}-Protoko
 
 Die wiederholten Sendevorgänge wirken sich ungünstig auf den Energieverbrauch der \glspl{node} aus. Mit steigender Anzahl der Teilnehmer, wie es in Logistanwendungen der Fall ist, stößt dieses System an seine Grenzen \citep{inBinTestbed}. 
 
-\section{Listen Before Talk}
+\section{Listen Before Talk}\label{kap:zugriffsverfahren_sec:lbt}
 Das \emph{\ac{etsi}} befasst sich in \citep{lbt} mit der elektromagnetischen Verträglichkeit und der Nutzung des Funkspektrums durch \acp{srd}. Um die Ausnutzung des Funkkanals als begrenzte physikalische Ressource zu maximieren, beschreibt dieser Standard einen \ac{lbt} Kanalzugriff. 
 
 Ist ein Gerät im Begriff, eine Übertragung zu starten, soll es zunächst den Funkkanal nach Aktivitäten anderer Geräte abhören und die eigentliche Übertragung noch zurückhalten. Die Abhörzeit $t_{\textrm{L}}$ setzt sich aus einer festen und einer zufälligen Komponente zusammen:
@@ -32,7 +32,7 @@ In \autoref{fig:lbt} wird auch deutlich, wann sich die Geräte im Sende- , bzw. 
         \caption[Listen Before Talk]{Beispiel für den LBT Algorithmus bei drei konkurrierenden Kanalzugriffen. Die orange markierten Zeiten repräsentieren Empfangsstatus, die roten Sendestatus.}\label{fig:lbt}
 \end{figure}
 
-\section{Carrier Sense Multiple Access/Collision Avoidance}
+\section{Carrier Sense Multiple Access / Collision Avoidance}\label{kap:zugriffsverfahren_sec:csma}
 Das \ac{ieee} standardisiert in \cite{ieee} die Bitübertragung (\emph{Physical Layer}) und den Kanalzugriff (\acs{mac}-\emph{Layer}) als Teil der Verbindungssicherung\footnote{im Bezug auf das \acl{osi} Referenzmodell der \acs{iso}} für Sensornetzwerke mit niedriger Datenrate. Das Protokoll sieht vor, dass vor Beginn einer Übertragung ein \acl{csma} Algorithmus durchlaufen wird. Ähnlich dem \acs{lbt} sieht dieser vor, eine Übertragung zunächst nach einem bestimmten Muster zurückzuhalten. Dieser Vorgang wird \emph{Backoff} genannt. In der Grundversion muss ein Gerät zwei Variablen zur Durchführung des Algorithmus verwalten:
 \begin{enumerate}
 	\item $NB$: Anzahl der Durchläufe des Algorithmus für den aktuellen Sendeversuch

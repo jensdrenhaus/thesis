@@ -9,7 +9,7 @@ Bewertung des Modells für die Verwendung in dieser Arbeit \\
 
 \section{Modellanpassungen}\label{kap:simulation_sec:anpassung}
 Austausch/Neuerstellung der Anwendungsschicht \\
-Ergänzung um automatische zufällige Platzierung der Container \\
+Ergänzung um automatische, zufällige Platzierung der Container \\
 Besonders wichtig: Anpassung der Transceivermodi -> Energiemodell \\
 --> Einbindung realer Messwerte \\
 

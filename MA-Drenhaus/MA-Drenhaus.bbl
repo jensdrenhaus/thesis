@@ -243,6 +243,23 @@
     \field{year}{2015}
   \endentry
 
+  \entry{ieee}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=SIC}{%
+         family={Society},
+         familyi={S\bibinitperiod},
+         given={IEEE\bibnamedelima Computer},
+         giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SIC1}
+    \strng{fullhash}{SIC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{IEEE Standard for Low-Rate Wireless Networks}
+    \field{year}{2015}
+  \endentry
+
   \entry{CC1200data}{manual}{}
     \name{author}{1}{}{%
       {{hash=IT}{%
@@ -912,23 +929,6 @@
   in the 25 MHz to 1 000 MHz frequency range with power levels ranging up to
   500 mW; Part 1: Technical characteristics and test methods}
     \field{year}{2012}
-  \endentry
-
-  \entry{ieee}{manual}{}
-    \name{author}{1}{}{%
-      {{hash=SIC}{%
-         family={Society},
-         familyi={S\bibinitperiod},
-         given={IEEE\bibnamedelima Computer},
-         giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod},
-      }}%
-    }
-    \strng{namehash}{SIC1}
-    \strng{fullhash}{SIC1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{IEEE Standard for Low-Rate Wireless Networks}
-    \field{year}{2015}
   \endentry
 
   \entry{epc}{online}{}

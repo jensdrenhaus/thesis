@@ -1,7 +1,7 @@
 %% Deckblatt fuer Studien- und Diplomarbeiten am Lehrstuhl KN
 %% an der Universität Dortmund
 \begin{titlepage}
-\begin{addmargin}[-1cm]{-3cm}%{-3cm}
+\begin{addmargin}[-1cm]{-3cm}
 	%\begin{minipage}[b]{9cm}
 		\includegraphics*[width=7.3cm]{gfx/tu_rgb}
 	%\end{minipage}
