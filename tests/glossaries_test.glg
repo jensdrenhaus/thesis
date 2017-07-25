@@ -1,0 +1,20 @@
+;; This logfile was generated automatically by `xindy'
+;; at 29.06.2017  15:36:36
+;; Indexstyle: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/Wn4cQ6Uhw7", Rawindex: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/EdNKFWRbWR", Output: "glossaries_test.gls"
+
+
+Building indexentry-tree:
+Hierdepth of index is :TREE
+
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+
+Forming letter-groups:
+Letter-group: "†€„„€—" -> "C"
+Letter-group: "ÈÃÚ€ÚÃ" -> "P"
+Letter-group: "†€ËËÃÚ" -> "C"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "†€„„€—" -> "C"
+sort-indexentries: (FORWARD BACKWARD FORWARD FORWARD)
+Letter-group: "ÈÃÚ€ÚÃ" -> "P"

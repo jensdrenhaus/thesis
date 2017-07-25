@@ -1,0 +1,104 @@
+%*******************************************************
+% Table of Contents
+%*******************************************************
+%\phantomsection
+\refstepcounter{dummy}
+\pdfbookmark[1]{\contentsname}{tableofcontents}
+\setcounter{tocdepth}{2} % <-- 2 includes up to subsections in the ToC
+\setcounter{secnumdepth}{3} % <-- 3 numbers up to subsubsections
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+%*******************************************************
+% List of Figures and of the Tables
+%*******************************************************
+\clearpage
+
+\begingroup 
+    \let\clearpage\relax
+    \let\cleardoublepage\relax
+    \let\cleardoublepage\relax
+    %*******************************************************
+    % List of Figures
+    %*******************************************************    
+    %\phantomsection 
+    %\refstepcounter{dummy}
+    %\addcontentsline{toc}{chapter}{\listfigurename}
+    %\pdfbookmark[1]{\listfigurename}{lof}
+    %\listoffigures
+
+    %\vspace{8ex}
+
+    %*******************************************************
+    % List of Tables
+    %*******************************************************
+    %\phantomsection 
+    %\refstepcounter{dummy}
+    %\addcontentsline{toc}{chapter}{\listtablename}
+    %\pdfbookmark[1]{\listtablename}{lot}
+    %\listoftables
+        
+    %\vspace{8ex}
+%   \newpage
+    
+    %*******************************************************
+    % List of Listings
+    %*******************************************************      
+      %\phantomsection 
+    %\refstepcounter{dummy}
+    %\addcontentsline{toc}{chapter}{\lstlistlistingname}
+    %\pdfbookmark[1]{\lstlistlistingname}{lol}
+    %\lstlistoflistings 
+
+    %\vspace{8ex}
+    
+    %\printglossary[title=Abkürzungentype=\acronymtype]
+    %\printglossary[type=main]
+    
+    %*******************************************************
+    % Abkürzungen
+    %*******************************************************
+    %\phantomsection 
+    \refstepcounter{dummy}
+    %\\addcontentsline{toc}{chapter}{\tocEntry{Abkürzungsverzeichnis}}
+    \pdfbookmark[1]{Abkürzungen}{acr}
+%    \markboth{\spacedlowsmallcaps{Abkürzungsverzeichnis}}{\spacedlowsmallcaps{Abkürzungsverzeichnis}}
+%    \chapter*{Abkürzungen}
+    \setglossarystyle{long}
+    \renewcommand*{\glsgroupskip}{}     %verkleinert Abstand zwischen den Items
+    \setlength{\glsdescwidth}{0.81\textwidth}
+    \printglossary[type=\acronymtype,title={Abkürzungen}]      
+%
+	\newpage
+    \refstepcounter{dummy}
+    \pdfbookmark[1]{Glossar}{glo}
+	\printglossary[type=main,title={Glossar}]
+       
+    %*******************************************************
+    % Acronyms
+    %*******************************************************
+    %\phantomsection 
+    %\refstepcounter{dummy}
+    %\pdfbookmark[1]{Acronyms}{acronyms}
+    %\markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+    %\chapter*{Acronyms}
+    %\begin{acronym}[CSMA-CA]
+        %\acro{CPS}{cyber-physisches System, engl. \emph{Cyber-Physical System}}
+        %\acro{CSMA-CA}{Mehrfachzugriff mit Funkkanalprüfung und Kollisionserkennung, engl. \emph{Carrier Sense Multiple Access / Collision Avoidance}}
+        %\acro{WSN}{drahtloses Sensornetzwerk, engl. \emph{Wireless Sensor Network}}
+        %\acro{AP}{Zugangspunkt, engl. \emph{Access Point}}
+        %\acro{MAC}{Medienzugriffssteuerung, engl. \emph{ Media Access Control}}
+        %\acro{ETSI}{engl. \emph{European Telecommunications Standards Institute}}
+        %\acro{SRD}{Kurzstreckenfunkgerät, engl. \emph{Short Range Device}}
+        %\acro{LBT}{engl. \emph{Listen Before Talk}}
+        %\acro{IEEE}{engl. \emph{Institute of Electrical and Electronics Engineers}}
+        %\acro{OSI}{engl. \emph{Open Systems Interconnection}}
+        %\acro{ISO}{engl. \emph{International Organization for Standardization}}
+        %\acro{RFID}{Identifizierung durch elektromagnetischer Wellen, engl. \emph{Radio-Frequency Identification}}
+        %\acro{GTIN}{globale Handels-Indentifikationsnummer, engl. \emph{Global Trade Item Number}}
+    %\end{acronym}     
+   
+\endgroup

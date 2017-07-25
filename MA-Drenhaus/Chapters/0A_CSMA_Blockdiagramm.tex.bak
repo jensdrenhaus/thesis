@@ -1,0 +1,11 @@
+%********************************************************************
+% Appendix
+%*******************************************************
+% If problems with the headers: get headings in appendix etc. right
+%\markboth{\spacedlowsmallcaps{Appendix}}{\spacedlowsmallcaps{Appendix}}
+\chapter{CSMA/CA Blockdiagramm}\label{ahg:csmablock}
+\begin{figure}[bth]
+        \myfloatalign
+        {\includegraphics[height=0.7\textheight]{gfx/CSMA-Block}} 
+        \caption[CSMA/CA Blockdiagramm]{Blockdiagramm des \acs{csma} Algorithmus nach dem \acs{802154} Standard \citep{ieee}. }\label{fig:csma-block}
+\end{figure}

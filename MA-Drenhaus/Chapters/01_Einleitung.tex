@@ -1,0 +1,43 @@
+%************************************************
+\chapter{Einleitung}\label{kap:eileitung}
+%************************************************
+
+Bei der Entwicklung in Richtung \gls{industrie40} werden Industrieanlagen und andere physische Systeme zur effizienten Auslastung und Energienutzung über einen zunehmenden Kommunikationsfluss miteinander vernetzt. Verkabelte Systeme sind in den meisten Anwendungsfällen zu unflexibel oder gar nicht realisierbar, sodass auf kabellose Kommunikation ausgewichen werden muss. Moderne eingebettete Systeme stellen hierbei die nötige Performanz zur Verfügung. So entstehen \acfp{cps}, die eine Dezentralisierung komplexer Systeme ermöglichen und zu steigender Flexibilität führen. In großen Logistiklagern bieten vernetzte Frachtcontainer ein hohes Maß an Selbstorganisation, wie die Überwachung des Frachtgutes oder die automatische Inventarisierung \citep{inBin}. Es entsteht ein \acf{wsn}, in welchem die Frachtcontainer als Netzwerkknoten, den so genannten \glspl{node}, fungieren.
+
+In Logistiklagern ist nur der Betrieb von besonders energieeffizienten oder gar energieautarken Lösungen denkbar, da Batteriewechsel oder Akku-Ladevorgänge die Dynamik und Zuverlässigkeit des gesamten Lagers negativ beeinträchtigen. Aus diesem Grund müssen derartige Systeme besonders sparsam mit der verfügbaren Energie haushalten. Eine Schlüsselrolle stellt in diesem Zusammenhang die Funkkommunikation dar, die im Verhältnis zur übrigen Intelligenz der Frachtcontainer besonders energieintensiv ist \citep{inBin}\citep{inBinTestbed}\citep{xmac}.
+
+Folglich müssen Übertragungen zuverlässig übermittelt werden. Diesem Ziel wirken in einem Logistiklager jedoch zahlreiche Faktoren entgegen: Z.B. erhöht die sehr hohe Teilnehmerzahl die Interferenz auf den einzelnen Übertragungsstrecken, was zu massiven Übertragungskollisionen führt \citep{inBinTestbed}\citep{GreenOrbs}.
+
+Aktuelle Forschungen beschäftigen sich sowohl mit den speziellen Anforderungen intelligenter, vernetzter Logistiklager \citep{inBinTestbed}, als auch mit Skalierungseffekten von Sensornetzen allgemein \citep{GreenOrbs}. Die bei  großskaligen Anwendungen  inhärente Konkurrenz der Teilnehmer wird hierbei wiederholt als wesentliches Problem benannt.
+
+\section{Motivation}
+Auf Grund der genannten hohen Anzahl an konkurrierenden \glspl{node} innerhalb eines Netzwerkes ist der Kanalzugriff ein kritischer Punkt im Bezug auf eine verlässliche und effiziente Funkkommunikation. Eine Netzwerküberlastung kann aus einem hohen Datenaufkommen einzelner \glspl{node} oder aus einer großen Zahl konkurrierender \glspl{node} innerhalb eines \ac{wsn} resultieren. Kommen beide Fälle zusammen, wird das Netzwerk noch stärker beansprucht. Schlagen Übertragungen fehl, müssen sie ggf. wiederholt werden, was die Netzlast weiter erhöht und sich negativ auf den Energieverbrauch der \glspl{node} auswirkt.
+
+Diese Arbeit beschäftigt sich daher mit der Entwicklung und Bewertung eines geeigneten Kanalzugriffverfahrens für derartige Logistikszenarien.
+Dabei sollen die folgenden Fragestellungen beantwortet werden:
+\begin{enumerate}
+	\item Wo stoßen gängige Kanalzugriffverfahren an ihre Grenzen?
+	\item Wie können sie hinsichtlich ihrer Leistungsstärke modifiziert werden?
+	\item Welche Einschränkungen ergeben sich daraus?
+	\item Welchen Einfluss nimmt das Kanalzugriffverfahren auf den Energieverbrauch?
+\end{enumerate}
+
+\section{Lösungsansatz}
+Der Lösungsansatz ist die Analyse des \acf{csma} Verfahrens aus dem \gls{802154} Protokoll. Mit Hilfe eines Simulationsmodells wird der Algorythmus zum Kanalzugriff zunächst mit Standardparametern unter den Rahmenbedingungen eines Logistiklagers untersucht. Im Anschluss werden Auswirkungen der Variation  \acs{csma}-Parameter simuliert. Zur Beurteilung der Energieeffizienz fließen Messdaten realer \gls{transceiver} in die Simulation ein. Durch eine prototypische Implementierung dieses Ansatzes werden die Simulationsergebnisse im Feldversuch hinsichtlich der Zuverlässigkeit und des Energieverbrauchs validiert.
+
+\section{Struktur der Arbeit}
+TODO: aktualisieren
+
+Die Arbeit gliedert sich wie folgt. \autoref{kap:verwandtearbeiten} zeigt die Ergebnisse bisheriger Untersuchungen auf und führt hin zur Motivation, welche in \autoref{kap:motivation} ausgeführt wird. Grundlegend für die eigentliche Untersuchung beschreibt \autoref{kap:sensornetzwerkefuerlogistiklager} die Struktur des analysierten Szenarios. In \autoref{kap:zugriffverfahren} werden zwei standardisierte Kanalzugriffsverfahren unter Berücksichtigung des Energieverbrauchs diskutiert. Es folgt eine umfassende Beschreibung des verwendeten Simulationsmodells 
+
+TODO: weitere Beschreibung der Kapitel vervollständigen.
+
+%*****************************************
+%*****************************************
+%*****************************************
+%*****************************************
+%*****************************************
+
+
+
+

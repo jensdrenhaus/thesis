@@ -1,0 +1,404 @@
+%************************************************
+%Abkürzungen
+%************************************************
+
+\newcommand{\gr}[1]{\textbf{#1}}
+\newcommand{\eng}[1]{\emph{#1}}
+%Glossar Verweispfeil mit Text
+\newcommand{\gloref}[1]{\glslink{#1}{\ding{43}\,Glossar} \glsadd{#1}}
+
+
+\newacronym[description={Cyber-physisches System, engl. \eng{\gr{C}yber-\gr{P}hysical \gr{S}ystem}},%
+	longplural={Cyber-physische Systeme, engl. \eng{\gr{C}yber-\gr{P}hysical \gr{S}ystems}}]%
+	{cps}%
+	{CPS}%
+	{cyber-physisches System, engl. \eng{\gr{C}yber-\gr{P}hysical \gr{S}ystem}}%
+	
+\newacronym[description={Vielfachzugriff mit Trägerprüfung und Kollisionserkennung, engl. \eng{\gr{C}arrier-\gr{S}ense \gr{M}ultiple \gr{A}ccess / \gr{C}ollision \gr{A}voidance}}]%
+	{csma}%
+	{CSMA-CA}%
+	{\eng{\gr{C}arrier \gr{S}ense \gr{M}ultiple \gr{A}ccess / \gr{C}ollision \gr{A}voidance}}%
+	
+\newacronym[description={Drahtloses Sensornetzwerk, engl. \eng{\gr{W}ireless \gr{S}ensor \gr{N}etwork}}]%
+	{wsn}%
+	{WSN}%
+	{drahtloses Sensornetzwerk, engl. \eng{\gr{W}ireless \gr{S}ensor \gr{N}etwork}}%
+	
+\newacronym[description={Zugangspunkt, engl. \eng{\gr{A}ccess \gr{P}oint}}]%
+	{ap}%
+	{AP}%
+	{\eng{\gr{A}ccess \gr{P}oint}}%
+	
+\newacronym[description={Medienzugriffssteuerung, engl. \eng{\gr{M}edia \gr{A}ccess \gr{C}ontrol}}]%
+	{mac}%
+	{MAC}%
+	{Medienzugriffssteuerung, engl. \eng{\gr{M}edia \gr{A}ccess \gr{C}ontrol}}%
+	
+\newacronym[description={Engl. \eng{\gr{L}ogical \gr{L}ink \gr{C}ontrol}}]%
+	{llc}%
+	{LLC}%
+	{\eng{\gr{L}ogical \gr{L}ink \gr{C}ontrol}}%
+	
+\newacronym[description={Engl. \eng{\gr{E}uropean \gr{T}elecommunications \gr{S}tandards \gr{I}nstitute}}]%
+	{etsi}%
+	{ETSI}%
+	{\eng{\gr{E}uropean \gr{T}elecommunications \gr{S}tandards \gr{I}nstitute}}%
+	
+\newacronym[description={Auf Deutsch etwa \gqq{erst horchen, dann sprechen}, engl. \eng{\gr{L}isten \gr{B}efore \gr{T}alk}}]%
+	{lbt}%
+	{LBT}%
+	{\eng{\gr{L}isten \gr{B}efore \gr{T}alk}}%
+	
+\newacronym[description={Engl. \eng{\gr{I}nstitute of \gr{E}lectrical and \gr{E}lectronics \gr{E}ngineers}}]%
+	{ieee}%
+	{IEEE}%
+	{\eng{\gr{I}nstitute of \gr{E}lectrical and \gr{E}lectronics \gr{E}ngineers}}%
+
+\newacronym[description={Kurzstreckenfunkgerät, engl. \eng{\gr{S}hort \gr{R}ange \gr{D}evice}}]%
+	{srd}%
+	{SRD}%
+	{\eng{\gr{S}hort \gr{R}ange \gr{D}evice}}%
+
+\newacronym[description={Offene Systemvernetzung, engl. \eng{\gr{O}pen \gr{S}ystems \gr{I}nterconnection}}]%
+	{osi}%
+	{OSI}%
+	{\eng{\gr{O}pen \gr{S}ystems \gr{I}nterconnection}}%
+	
+\newacronym[description={Engl. \eng{\gr{I}nternational \gr{O}rganization for \gr{S}tandardization}}]%
+	{iso}%
+	{ISO}%
+	{\eng{\gr{I}nternational \gr{O}rganization for \gr{S}tandardization}}%
+	
+\newacronym[description={Identifizierung durch elektromagnetische Wellen, engl. \eng{\gr{R}adio-\gr{F}requency \gr{I}dentification}}]%
+	{rfid}%
+	{RFID}%
+	{Identifizierung durch elektromagnetischer Wellen, engl. \eng{\gr{R}adio-\gr{F}requency \gr{I}dentification}}%
+	
+\newacronym[description={Globale Handelsgut Indentifikationsnummer, engl.  \eng{\gr{G}lobal \gr{T}rade \gr{I}tem \gr{N}umber}}]%
+	{gtin}%
+	{GTIN}%
+	{globale Handelsgut Indentifikationsnummer, engl. \eng{\gr{G}lobal \gr{T}rade \gr{I}tem \gr{N}umber}}%
+
+\newacronym[description={Elektronischer Produkt Code, engl. \eng{\gr{E}lectronic \gr{P}roduct \gr{C}ode}}]%
+	{epc}%
+	{EPC}%
+	{\eng{\gr{E}lectronic \gr{P}roduct \gr{C}ode}}%
+	
+\newacronym[description={Engl. \eng{\gr{O}bjective \gr{M}odular \gr{N}etwork \gr{T}estbed in C\gr{++}} \gloref{gl:omnet}}]%
+	{omnet}%
+	{OMNeT++}%
+	{\eng{\gr{O}bjective \gr{M}odular \gr{N}etwork \gr{T}estbed in C\gr{++}}}%	
+
+\newacronym[description={Drahtloses lokales Netzwerk, engl. \eng{\gr{W}ireless \gr{L}ocal \gr{A}rea \gr{N}etwork}}]%
+	{wlan}%
+	{WLAN}%
+	{\eng{\gr{W}ireless \gr{L}ocal \gr{A}rea \gr{N}etwork}}%	
+	
+\newacronym[description={Drahtloses Netzwerk für das unmittelbare Umfeld, engl. \eng{\gr{W}ireless \gr{P}ersonal \gr{A}rea \gr{N}etwork}}]%
+	{wpan}%
+	{WPAN}%
+	{\eng{\gr{W}ireless \gr{P}ersonal \gr{A}rea \gr{N}etwork}}%
+	
+\newacronym[description={IPv6 für \acs{wpan} mit geringer Leitungsaufnahme, engl. \eng{IPv\gr{6} over \gr{Lo}w Power \gr{WPAN}} \gloref{gl:6lowpan}}]%
+	{6lowpan}%
+	{6LoWPAN}%
+	{\eng{IPv\gr{6} over \gr{Lo}w Power \gr{W}ireless \gr{P}ersonal \gr{A}rea \gr{N}etwork}}%		
+
+\newacronym[description={Kanalbewertung, engl. \eng{\gr{C}lear \gr{C}annel \gr{A}ssessment}}]%
+	{cca}%
+	{CCA}%
+	{\eng{\gr{C}lear \gr{C}annel \gr{A}ssessment}}%
+	
+\newacronym[description={Produktspezifische Zustellrate, engl. \eng{\gr{P}roduct \gr{S}pecific \gr{D}elivery} \gr{R}atio}]%
+	{psdr}%
+	{PSDR}%
+	{produktspezifische Zustellrate engl. \eng{\gr{P}roduct \gr{S}pecific \gr{D}elivery} \gr{R}atio}%
+	
+\newacronym[description={Ereignisorientierte Simulation, engl. \eng{\gr{D}escrete \gr{E}vent \gr{S}imulation}},%
+longplural={ereignisorientierten Simulationen, engl. \eng{\gr{D}escrete \gr{E}vent \gr{S}imulations}}]%]%
+	{des}%
+	{DES}%
+	{ereignisorientierte Simulation, engl. \eng{\gr{D}escrete \gr{E}vent \gr{S}imulation}}%
+	
+\newacronym[description={Liste der zukünftigen Ereignisse bei \acsp{des}, engl. \eng{\gr{F}uture \gr{E}vent \gr{L}ist}}]%
+	{fel}%
+	{FEL}%
+	{\eng{\gr{F}uture \gr{E}vent \gr{L}ist}}%	
+	
+	
+\newacronym[description={Engl. \eng{\gr{I}ndustrial \gr{S}cientific \gr{M}edical} \gloref{gl:ism}}]%
+	{ism}%
+	{ISM}%
+	{\eng{\gr{I}dustrial \gr{S}cientific \gr{M}edical}}%
+	
+\newacronym[description={Additives weißes gaußsches Rauschen, engl. \eng{\gr{A}dditive \gr{W}hite \gr{G}aussian \gr{N}oise}}]%
+	{awgn}%
+	{AWGN}%
+	{additives weißes gaußsches Rauschen, engl.\eng{\gr{A}dditive \gr{W}hite \gr{G}aussian \gr{N}oise}}%
+	
+\newacronym[description={Signal-Rausch-Verhältnis, engl. \eng{\gr{S}ignal to \gr{N}oise \gr{R}atio}}]%
+	{snr}%
+	{SNR}%
+	{Signal-Rausch-Verhältnis, engl. \eng{\gr{S}ignal to \gr{N}oise \gr{R}atio}}%
+	
+\newacronym[description={Frequenzumtastung, engl. \eng{\gr{F}requency \gr{S}hift \gr{K}eying}}]%
+	{fsk}%
+	{FSK}%
+	{Frequenzumtastung, engl. \eng{\gr{F}requency \gr{S}hift \gr{K}eying}}%
+
+\newacronym[description={Frequenzvielfachzugriff, engl. \eng{\gr{F}requency-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
+	{fdma}%
+	{FDMA}%
+	{Frequenzvielfachzugriff, engl. \eng{\gr{F}requency-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
+	
+\newacronym[description={Zeitvielfachzugriff, engl. \eng{\gr{T}ime-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
+	{tdma}%
+	{TDMA}%
+	{Zeitvielfachzugriff, engl. \eng{\gr{T}ime-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
+	
+\newacronym[description={Codevielfachzugriff, engl. \eng{\gr{C}ode-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
+	{cdma}%
+	{CDMA}%
+	{Codevielfachzugriff, engl. \eng{\gr{C}ode-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
+	
+\newacronym[description={Raumfachzugriff, engl. \eng{\gr{S}pace-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}]%
+	{sdma}%
+	{SDMA}%
+	{Raumvielfachzugriff, engl. \eng{\gr{S}pace-\gr{D}ivision \gr{M}ultiple \gr{A}ccess}}%
+	
+\newacronym[description={Vielfachzugriff mit Trägerprüfung, engl. \eng{\gr{C}arrier-\gr{S}ense \gr{M}ultiple \gr{A}ccess}}]%
+	{csma1}%
+	{CSMA}%
+	{Vielfachzugriff mit Trägerprüfung, engl. \eng{\gr{C}arrier-\gr{S}ense \gr{M}ultiple \gr{A}ccess}}%
+	
+\newacronym[description={Auf Deutsch \gqq{Anfrage zum Senden}, engl. \eng{\gr{r}equest \gr{t}o \gr{s}end}}]%
+	{rts}%
+	{RTS}%
+	{\eng{\gr{r}equest \gr{t}o \gr{s}end}}%
+	
+\newacronym[description={Auf Deutsch \gqq{klar zum Senden}, engl. \eng{\gr{c}lear \gr{t}o \gr{s}end}}]%
+	{cts}%
+	{CTS}%
+	{\eng{\gr{r}equest \gr{t}o \gr{s}end}}%	
+	
+\newacronym[description={Allgemeiner Ein- und Ausgabepin, engl. \eng{\gr{G}eneral \gr{P}urpose \gr{I}input \gr{O}utput}}]%
+	{gpio}%
+	{GPIO}%
+	{\eng{\gr{G}eneral \gr{P}urpose \gr{I}nput/\gr{O}utput}}%	
+	
+\newacronym[description={Zentrale Recheneinheit, engl. \eng{\gr{C}entral \gr{P}rocessing \gr{U}nit}}]%
+	{cpu}%
+	{CPU}%
+	{\eng{\gr{C}entral \gr{P}rocessing \gr{U}nit}}%	
+
+\newacronym[description={Analog-Digital Wandler, engl. \eng{\gr{A}nalog to \gr{D}igital \gr{C}onverter}}]%
+	{adc}%
+	{ADC}%
+	{Analog-Digital Wandler, engl. \eng{\gr{A}nalog to \gr{D}igital \gr{C}onverter}}%	
+	
+\newacronym[description={Rechner mit reduziertem Instruktionssatz, engl. \eng{\gr{R}educed to \gr{I}nstruction Set \gr{C}omputer}}]%
+	{risc}%
+	{RISC}%
+	{\eng{\gr{R}educed to \gr{I}nstruction Set \gr{C}omputer}}%	
+	
+\newacronym[description={Ferroelektrischer Speicher mit wahlfreiem Zugriff, engl. \eng{\gr{F}erroelectric to \gr{R}andom \gr{A}ccess} \gr{M}emory}]%
+	{fram}%
+	{FRAM}%
+	{\eng{\gr{F}erroelectric to \gr{R}andom \gr{A}ccess} \gr{M}emory}%	
+	
+\newacronym[description={Leuchtdiode, engl. \eng{\gr{L}ight \gr{E}mitting \gr{D}iode}}]%
+	{led}%
+	{LED}%
+	{\eng{\gr{L}ight \gr{E}mitting \gr{D}iode}}%	
+	
+\newacronym[description={Engl. \eng{\gr{S}erial \gr{P}eripheral \gr{I}nterface} \gloref{gl:spi}}]%
+	{spi}%
+	{SPI}%
+	{\eng{\gr{S}erial \gr{P}eripheral \gr{I}nterface}}%	
+
+\newacronym[description={Engl. \eng{\gr{I}nterrupt \gr{S}ervice \gr{R}outine}}]%
+	{isr}%
+	{ISR}%
+	{\eng{\gr{I}nterrupt \gr{S}ervice \gr{R}outine}}%	
+	
+\newacronym[description={Engl. \eng{\gr{M}aster \gr{O}ut \gr{S}lave \gr{I}n} \gloref{gl:mosi}}]%
+	{mosi}%
+	{MOSI}%
+	{\eng{\gr{M}aster \gr{O}ut \gr{S}lave \gr{I}n}}%	
+	
+\newacronym[description={Engl. \eng{\gr{M}aster \gr{I}n \gr{S}lave \gr{O}ut} \gloref{gl:miso}}]%
+	{miso}%
+	{MISO}%
+	{\eng{\gr{M}aster \gr{I}n \gr{S}lave \gr{O}ut}}%	
+	
+\newacronym[description={Engl. \eng{\gr{S}erial \gr{Cl}ock} \gloref{gl:scl}}]%
+	{scl}%
+	{SCL}%
+	{\eng{\gr{S}erial \gr{Cl}ock}}%
+	
+\newacronym[description={Engl. \eng{\gr{C}hip \gr{S}elect}}]%
+	{cs}%
+	{CS}%
+	{\eng{\gr{C}hip \gr{S}elect}}%
+
+		
+%************************************************
+%Glossar
+%************************************************
+
+\newglossaryentry{industrie40}{%
+	name={Industrie 4.0},%
+	description={Beschreibt den zunehmenden Einfluss von Kommunikations- und Informationstechnik in klassischen Industrieabläufen. Grundlage dafür bilden intelligente, vernetzte Systeme}%
+}
+
+\newglossaryentry{node}{%
+	name={Node},%
+	description={Auf Deutsch \gqq{Knoten}. Umverteilungspunkt oder Endpunkt bei Datenübertragungen}%
+}
+
+\newglossaryentry{802154}{%
+	name={IEEE 802.15.4},%
+	description={Standardisierter Protokollstapel für drahtlose Netzwerke mit geringer Datenrate}%
+}
+
+\newglossaryentry{80211g}{%
+	name={IEEE 802.11g},%
+	description={Standardisierter Protokollstapel für den Informationsaustausch in \acp{wlan}}%
+}
+
+\newglossaryentry{transceiver}{%
+	name={Transceiver},%
+	description={Funkgerät mit integrierter Sende- und Empfangseinheit, engl. \eng{\gr{Trans}mitter Re\gr{ceiver}}}%
+}
+
+\newglossaryentry{gl:omnet}{%
+	name={OMNeT++},%
+	description={\gls{cpp} Framework für ereignisorientierte Simulationen, speziell für Netzwerkprotokolle (\acl{omnet})}%
+}
+
+\newglossaryentry{cpp}{%
+	name={C++},%
+	description={Erweiterung der Programmiersprache \gls{c}. Erlaubt objektorientiertes Programmieren}%
+}
+
+\newglossaryentry{c}{%
+	name={C},%
+	description={Imperative Programmiersprache, die vorwiegend zur maschinennahen Programmierung verwendet wird}%
+}
+
+\newglossaryentry{inet}{%
+	name={INET},%
+	description={Modellbibliothek für \gls{gl:omnet} für leitungsgebundene, kabellose und mobile Netzwerke}%
+}
+
+\newglossaryentry{bluetooth}{%
+	name={Bluetooth},%
+	description={Funktechnologie zum Datenaustausch zwischen Geräten über kurze Distanzen im $2,4 GHz$ Band}%
+}
+
+\newglossaryentry{gl:6lowpan}{%
+	name={6LoWPAN},%
+	description={Implementierung des Internet Protokolls für \acsp{wpan} mit geringer Leitungsaufnahme (\acs{6lowpan}) und damit Voraussetzung für den Zugang zum Internet}%
+}
+ 
+\newglossaryentry{routing}{%
+	name={Routing},%
+	description={Ermitteln eines geeigneten Weges einer Datenübertragung in einem Netzwerk}%
+}
+
+\newglossaryentry{energyharvesting}{%
+	name={Energy Harvesting},%
+	description={Auf Deutsch \gqq{Energie ernten}. Bezeichnet die Gewinnung elektrischer Energie aus der Umgebung durch Licht, Bewegung oder Temperaturunterschiede}%
+}
+
+\newglossaryentry{aloha}{%
+	name={ALOHA},%
+	description={Kanalzugriffsverfahren, das 1970 von Norman Abramson an der Universität von Hawaii entwickelt wurde \citep{aloha}}%
+}
+
+\newglossaryentry{server}{%
+	name={Server},%
+	description={Computer innerhalb eines Netzwerks, der anderen Computern oder Geräten, den \glspl{client}, Dienste zur Verfügung stellt}%
+}
+
+\newglossaryentry{client}{%
+	name={Client},%
+	description={Computer oder Gerät, das Dienste von einem \gls{server} in einem Netzwerk anfordert}%
+}
+
+\newglossaryentry{zigbee}{%
+	name={ZigBee},%
+	description={Standardisierter Protokollstapel für Netzwerke mit geringem Datenaufkommen. ZigBee basiert auf dem \gls{802154} Standard und erweitert diesen um eine Netzwerk- und Anwendungsschicht }%
+}
+
+\newglossaryentry{gl:ism}{%
+	name={ISM-Band},%
+	description={Frequenzbereiche für die Nutzung in Industrie, Wissenschaft und Medizin, eng. \acf{ism}}%
+}
+
+\newglossaryentry{hiddenstation}{%
+	name={Hidden Station},%
+	description={Auf Deutsch \gqq{verborgene Station}. Beschreibt die Unfähigkeit, die Funkaktivität weiter entfernter Sender zu detektieren. Siehe auch \autoref{kap:grundlagen_sec:hiddenstation}}%
+}
+
+\newglossaryentry{cc1200}{%
+	name={CC1200},%
+	description={Funkchip für den Sub-GHz Bereich von Texas Instruments. Siehe auch \autoref{kap:grundlagen_sec:cc1200}}%
+}
+
+\newglossaryentry{msp430}{%
+	name={MSP430},%
+	description={Mikrocontroller-Familie von Texas Instruments speziell für Anwendungen mit geringer Leistungsaufnahme. Die genaue Typenbezeichnung des verwendeten Modells lautet MSP430FR9596. Siehe auch \autoref{kap:grundlagen_sec:msp430}}%
+}
+
+\newglossaryentry{launchpad}{%
+	name={LaunchPad},%
+	description={Entwicklungsplatine für den \gls{msp430} Mikrocontroller}%
+}
+
+\newglossaryentry{gl:gpio}{%
+	name={GPIO},%
+	description={Anschlusspin an Prozessoren oder Mikrocontrollern zur allgemeinen Datenein- und Ausgabe, engl. \acl{gpio}}%
+}
+
+\newglossaryentry{watchdog}{%
+	name={Watchdog},%
+	description={Auf Deutsch \gqq{Wachhund}. Komponente eines Mikrocontrollers zum kontrollierten Neustart. Siehe \autoref{kap:grundlagen_sec:msp430}}%
+}
+
+\newglossaryentry{gl:spi}{%
+	name={SPI},%
+	description={Synchrones serielles Bussystem zum Datenaustausch zwischen einem \emph{Master}-Gerät und einem oder mehreren \emph{Slave}-Geräten. Siehe \autoref{kap:grundlagen_sec:msp430}}%
+}
+
+\newglossaryentry{gl:mosi}{%
+	name={MOSI Leitung},%
+	description={Datenleitung beim \gls{gl:spi} für die Datenübertragung vom \emph{Master} zum \emph{Slave}, engl. \acf{mosi}. Siehe \autoref{kap:grundlagen_sec:msp430}}%
+}
+
+\newglossaryentry{gl:miso}{%
+	name={MISO Leitung},%
+	description={Datenleitung beim \gls{gl:spi} für die Datenübertragung vom \emph{Slave} zum \emph{Master}, engl. \acf{miso}. Siehe \autoref{kap:grundlagen_sec:msp430}}%
+}
+
+\newglossaryentry{gl:scl}{%
+	name={SCL Leitung},%
+	description={Taktleitung zur synchronen Datenübertragung beim \gls{gl:spi}, engl. \acf{scl}. Siehe \autoref{kap:grundlagen_sec:msp430}}%
+}
+
+\newglossaryentry{gl:cs}{%
+	name={CS Leitung},%
+	description={Siganlleitung zur auswahl des \emph{Slaves} beim \gls{gl:spi}, engl. \acf{cs}. Siehe \autoref{kap:grundlagen_sec:msp430}}%
+}
+
+
+ 
+%*****************************************
+%*****************************************
+%*****************************************
+%*****************************************
+%*****************************************
+
+
+
+

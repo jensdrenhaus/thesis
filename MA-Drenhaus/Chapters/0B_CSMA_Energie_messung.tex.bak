@@ -1,0 +1,76 @@
+%********************************************************************
+% Appendix
+%*******************************************************
+% If problems with the headers: get headings in appendix etc. right
+%\markboth{\spacedlowsmallcaps{Appendix}}{\spacedlowsmallcaps{Appendix}}
+\chapter{Energieverbrauch CSMA/CA }\label{ahg:messwerte_csma}
+\begin{table}
+    %\myfloatalign
+  %\begin{tabularx}{1\textwidth}{Xll} \toprule
+    \tableheadline{Messung} & \tableheadline{Energie \textrm{mWs}, 1 Sender} & \tableheadline{E in mWs, 10 Sender } \\ \midrule
+    $1$  & $122mWh$ & $127mWh$ \\
+    $2$  & $124mWh$ & $122mWh$ \\
+    $3$ & $122mWh$ & $122mWh$ \\
+    $4$  & $125mWh$ & $128mWh$ \\
+    $5$  & $119mWh$ & $119mWh$ \\
+    $6$  & $124mWh$ & $119mWh$ \\
+    $7$  & $122mWh$ & $127mWh$ \\
+    $8$  & $122mWh$ & $123mWh$ \\
+    $9$  & $120mWh$ & $129mWh$ \\
+    $10$  & $127mWh$ & $122mWh$ \\
+    $11$  & $119mWh$ & $121mWh$ \\
+    $12$  & $126mWh$ & $122mWh$ \\
+    $13$  & $120mWh$ & $125mWh$ \\
+    $14$  & $121mWh$ & $119mWh$ \\
+    $15$  & $120mWh$ & $120mWh$ \\
+    $16$  & $122mWh$ & $119mWh$ \\
+    $17$  & $122mWh$ & $122mWh$ \\
+    $18$  & $125mWh$ & $119mWh$ \\
+    $19$  & $120mWh$ & $122mWh$ \\
+    $20$  & $123mWh$ & $121mWh$ \\
+    $21$  & $120mWh$ & $119mWh$ \\
+    $22$  & $122mWh$ & $126mWh$ \\
+    $23$  & $122mWh$ & $123mWh$ \\
+    $24$  & $125mWh$ & $122mWh$ \\
+    $25$  & $121mWh$ & $121mWh$ \\
+    $26$  & $120mWh$ & $122mWh$ \\
+    $27$  & $122mWh$ & $122mWh$\\
+    $28$  & $122mWh$ & $120mWh$ \\
+    $29$  & $122mWh$ & $122mWh$ \\
+    $30$  & $122mWh$ & $121mWh$ \\
+    $1$  & $122mWh$ & $127mWh$ \\
+    $2$  & $124mWh$ & $122mWh$ \\
+    $3$ & $122mWh$ & $122mWh$ \\
+    $4$  & $125mWh$ & $128mWh$ \\
+    $5$  & $119mWh$ & $119mWh$ \\
+    $6$  & $124mWh$ & $119mWh$ \\
+    $7$  & $122mWh$ & $127mWh$ \\
+    $8$  & $122mWh$ & $123mWh$ \\
+    $9$  & $120mWh$ & $129mWh$ \\
+    $10$  & $127mWh$ & $122mWh$ \\
+    $11$  & $119mWh$ & $121mWh$ \\
+    $12$  & $126mWh$ & $122mWh$ \\
+    $13$  & $120mWh$ & $125mWh$ \\
+    $14$  & $121mWh$ & $119mWh$ \\
+    $15$  & $120mWh$ & $120mWh$ \\
+    $16$  & $122mWh$ & $119mWh$ \\
+    $17$  & $122mWh$ & $122mWh$ \\
+    $18$  & $125mWh$ & $119mWh$ \\
+    $19$  & $120mWh$ & $122mWh$ \\
+    $20$  & $123mWh$ & $121mWh$ \\
+    $21$  & $120mWh$ & $119mWh$ \\
+    $22$  & $122mWh$ & $126mWh$ \\
+    $23$  & $122mWh$ & $123mWh$ \\
+    $24$  & $125mWh$ & $122mWh$ \\
+    $25$  & $121mWh$ & $121mWh$ \\
+    $26$  & $120mWh$ & $122mWh$ \\
+    $27$  & $122mWh$ & $122mWh$\\
+    $28$  & $122mWh$ & $120mWh$ \\
+    $29$  & $122mWh$ & $122mWh$ \\
+    $30$  & $122mWh$ & $121mWh$ \\
+    \midrule
+    $\overline{x}$  & 122,1 & 122,2 \\
+    \bottomrule
+  %\end{tabularx}
+  \caption[Messreihe EnergieVerbrauch]{Messreihen zum Energieverbrauch des \acs{csma} Algoithmus}  \label{tab:messreihe_csma_energie}
+\end{table}

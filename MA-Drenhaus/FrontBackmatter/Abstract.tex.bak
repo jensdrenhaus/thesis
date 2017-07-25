@@ -1,0 +1,26 @@
+%*******************************************************
+% Abstract
+%*******************************************************
+%\renewcommand{\abstractname}{Abstract}
+\pdfbookmark[1]{Abstract}{Abstract}
+\begingroup
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+\chapter*{Abstract}
+ToDo
+
+\vfill
+
+\begin{otherlanguage}{ngerman}
+\pdfbookmark[1]{Zusammenfassung}{Zusammenfassung}
+\chapter*{Zusammenfassung}
+ToDo
+
+Diese Arbeit beschäftigt sich mit der Entwicklung und Bewertung eines geeigneten Kanalzugriffverfahrens. Der Lösungsansatz ist die Analyse des \ac{csma} Verfahrens aus dem IEEE 802.15.4 Protokoll. Mit Hilfe eines Simulationsmodells werden Variationen der Standardparameter untersucht. Dabei zeigt die Modifikation des dort verwendeten Backoff-Algorithmus positive Auswirkungen sowohl auf die Zuverlässigkeit der Übertragungen als auch auf den Energieverbrauch. Durch eine prototypische Implementierung dieses Ansatzes werden die Ergebnisse der Simulation im Feldversuch validiert.
+\end{otherlanguage}
+
+\endgroup			
+
+\vfill

@@ -1,0 +1,57 @@
+\BOOKMARK [1][-]{Abstract.1}{Abstract}{}% 1
+\BOOKMARK [1][-]{Zusammenfassung.1}{Zusammenfassung}{}% 2
+\BOOKMARK [1][-]{tableofcontents.1}{Inhaltsverzeichnis}{}% 3
+\BOOKMARK [1][-]{acr.1}{Abk\374rzungen}{}% 4
+\BOOKMARK [1][-]{glo.1}{Glossar}{}% 5
+\BOOKMARK [0][]{chapter.1}{1 Einleitung}{}% 6
+\BOOKMARK [1][-]{section.1.1}{1.1 Motivation}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.2}{1.2 L\366sungsansatz}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.3}{1.3 Struktur der Arbeit}{chapter.1}% 9
+\BOOKMARK [0][]{chapter.2}{2 Grundlagen}{}% 10
+\BOOKMARK [1][-]{section.2.1}{2.1 Funkkommunikation}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Freiraumausbreitung}{section.2.1}% 12
+\BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 Rauschen}{section.2.1}% 13
+\BOOKMARK [2][-]{subsection.2.1.3}{2.1.3 Modulation}{section.2.1}% 14
+\BOOKMARK [2][-]{subsection.2.1.4}{2.1.4 Kanalausnutzung}{section.2.1}% 15
+\BOOKMARK [1][-]{section.2.2}{2.2 Kommunikationsprotokolle}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.3}{2.3 Energieverbrauch}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.3.1}{2.3.1 Energiemodell}{section.2.3}% 18
+\BOOKMARK [2][-]{subsection.2.3.2}{2.3.2 Energiemessung}{section.2.3}% 19
+\BOOKMARK [1][-]{section.2.4}{2.4 Simulationen}{chapter.2}% 20
+\BOOKMARK [2][-]{subsection.2.4.1}{2.4.1 Ereignisorientierte Simulation}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.2}{2.4.2 OMNeT++}{section.2.4}% 22
+\BOOKMARK [1][-]{section.2.5}{2.5 Hardware}{chapter.2}% 23
+\BOOKMARK [2][-]{subsection.2.5.1}{2.5.1 MSP430}{section.2.5}% 24
+\BOOKMARK [2][-]{subsection.2.5.2}{2.5.2 CC1200 Funkchip}{section.2.5}% 25
+\BOOKMARK [1][-]{section.2.6}{2.6 Entwicklungssoftware}{chapter.2}% 26
+\BOOKMARK [0][]{chapter.3}{3 Verwandte Arbeiten}{}% 27
+\BOOKMARK [1][-]{section.3.1}{3.1 \334bersicht}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.2}{3.2 Drei Projekte im Detail}{chapter.3}% 29
+\BOOKMARK [0][]{chapter.4}{4 Auswahl des Kanalzugriffsverfahrens}{}% 30
+\BOOKMARK [1][-]{section.4.1}{4.1 ALOHA}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.2}{4.2 Listen Before Talk}{chapter.4}% 32
+\BOOKMARK [1][-]{section.4.3}{4.3 Carrier Sense Multiple Access/Collision Avoidance}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.4}{4.4 Schlussfolgerung f\374r die weitere Untersuchung}{chapter.4}% 34
+\BOOKMARK [0][]{chapter.5}{5 Systembeschreibung und Analysemethode}{}% 35
+\BOOKMARK [1][-]{section.5.1}{5.1 Ein geeignetes Szenario}{chapter.5}% 36
+\BOOKMARK [2][-]{subsection.5.1.1}{5.1.1 Anordnung}{section.5.1}% 37
+\BOOKMARK [2][-]{subsection.5.1.2}{5.1.2 Energieversorgung}{section.5.1}% 38
+\BOOKMARK [2][-]{subsection.5.1.3}{5.1.3 Datenaufkommen}{section.5.1}% 39
+\BOOKMARK [2][-]{subsection.5.1.4}{5.1.4 Kommunikationsfluss}{section.5.1}% 40
+\BOOKMARK [2][-]{subsection.5.1.5}{5.1.5 Kanalmodell}{section.5.1}% 41
+\BOOKMARK [1][-]{section.5.2}{5.2 Analyse- und Messmethode}{chapter.5}% 42
+\BOOKMARK [2][-]{subsection.5.2.1}{5.2.1 Messaufbau}{section.5.2}% 43
+\BOOKMARK [0][]{chapter.6}{6 Simulation}{}% 44
+\BOOKMARK [1][-]{section.6.1}{6.1 IEEE 802.15.4 Modell}{chapter.6}% 45
+\BOOKMARK [1][-]{section.6.2}{6.2 Modellanpassungen}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{6.3 Simulationsergebnisse}{chapter.6}% 47
+\BOOKMARK [0][]{chapter.7}{7 Auswertung}{}% 48
+\BOOKMARK [0][]{chapter.8}{8 Prototypische Implementierung}{}% 49
+\BOOKMARK [1][-]{section.8.1}{8.1 Funktioinstest}{chapter.8}% 50
+\BOOKMARK [1][-]{section.8.2}{8.2 Messungen}{chapter.8}% 51
+\BOOKMARK [0][]{chapter.9}{9 Zusammenfassung}{}% 52
+\BOOKMARK [0][]{appendix.A}{A CSMA/CA Blockdiagramm}{}% 53
+\BOOKMARK [0][]{appendix.B}{B CC1200 Registerkonfiguration}{}% 54
+\BOOKMARK [0][]{appendix.C}{C CSMA/CA Implementierung}{}% 55
+\BOOKMARK [0][]{appendix.D}{D Zufallszahlenerzeugung}{}% 56
+\BOOKMARK [0][]{dummy.4}{Literatur}{}% 57

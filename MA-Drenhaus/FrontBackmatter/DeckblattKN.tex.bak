@@ -1,0 +1,67 @@
+%% Deckblatt fuer Studien- und Diplomarbeiten am Lehrstuhl KN
+%% an der Universität Dortmund
+\begin{titlepage}
+\begin{addmargin}[-1cm]{-3cm}%{-3cm}
+	%\begin{minipage}[b]{9cm}
+		\includegraphics*[width=7.3cm]{gfx/tu_rgb}
+	%\end{minipage}
+	%\begin{minipage}[b]{8cm}
+		\includegraphics*[scale = 0.57]{gfx/LSKN}
+	%\end{minipage}
+\begin{minipage}[b]{17cm}
+	\vspace{1.2cm}%{0cm}
+    %\includegraphics*[width=7.3cm]{gfx/tu_rgb} \hspace{.9cm}
+	%\includegraphics*[scale = 0.57]{gfx/LSKN}
+\end{minipage}
+		~
+	\vspace{0.5cm}
+
+	\hrule
+\begin{center}
+	{\normalsize\fontfamily{phv}\fontsize{14}{14}\selectfont 
+		{\normalsize\fontsize{14}{14}\selectfont 
+			
+			\vspace{2.8cm}%{2.4cm}
+			
+			{\large \textbf{\myDocType}}
+
+			\vspace{4.5cm}%\vspace{5.5cm}%\vspace{4.5cm}
+
+			\parbox{\textwidth}{%\parbox{0.7\textwidth}{
+				\begin{center}
+					\LARGE\textbf{%
+						\myTitle
+						}
+				\end{center}
+			}
+
+			\vspace{5cm}%\vspace{5.2cm} %\vspace{4.2cm}
+
+			{\fontsize{13pt}{12} \selectfont%
+				\textbf{\myDegree \myName}
+			}\\
+			\vspace{3cm}
+
+			\hrule
+
+			\vspace{0.7cm}
+
+		\begin{addmargin}[3.3cm]{0cm}
+			{\fontsize{12pt}{12} \selectfont%
+				\begin{tabular}{lcl}
+					Betreuer &:& \myProf\\[0.5ex]
+					&& \mySupervisor\\[0.5ex]
+					Eingereicht am &:& \myDate
+				\end{tabular}
+			}
+		\end{addmargin}
+		}
+	}
+									
+\end{center}
+\end{addmargin} 
+\end{titlepage}
+
+\newpage
+\normalsize
+\chead[]{}

@@ -1,0 +1,113 @@
+%************************************************
+\chapter{Verwandte Arbeiten}\label{kap:verwandtearbeiten}
+%************************************************
+
+Die Untersuchung von \ac{wsn} und den damit verbundenen Fragestellungen ist Forschungsgegenstand auf vielen verschieden Gebieten. Dieses Kapitel gibt einen Überblick über verschiedene Anwendungsfelder sowie zu Untersuchungen spezieller Aspekte. Anschließend werden drei Projekte mit besonderer Relevanz für die vorliegende Arbeit genauer beschrieben.
+
+\section{Übersicht}
+
+Obwohl Simulationen zur Erforschung von \acp{wsn} wegen der großen Anzahl unterschiedlicher Einflüsse nur bedingt zu umfassenden Ergebnissen führen können, sind sie dennoch wichtiger, begleitender Bestandteil vieler Untersuchungen.
+\begin{description}
+
+\item[IEEE 802.15.4 Modell] Ein Modell für die Simulationsumgebung \acs{omnet} aus dem Jahr 2007 \citep{oldmodel}. Der Fokus dieser Implementierung liegt auf der Modellierung des \acs{csma} Algorithmus
+
+\item[Standalone IEEE 802.15.4 Modell] Eine nahezu vollständige Modellierung des \gls{802154} Protokolls für \gls{gl:omnet} \cite{model}. Neben den eigentlichen Protokollschichten, ist die Einbindung einer Anwendungsschicht bereits vorgesehen. Die Implementierung berücksichtigt einige Neuerungen des Protokolls im Vergleich zum zuvor genannten Modell.
+
+\item[Batteriemodell] Zur genaueren Abbildung der Batterielaufzeit energiesensitiver Geräte innerhalb eines Simulationsszenarios wird in \cite{batterymodel} ein Batteriemodell vorgestellt, welches die komplexen elektro-chemischen Vorgänge berücksichtigt.
+
+\end{description}
+Um den Einschränkungen und Vereinfachungen bei simulativen Untersuchungen von \acs{wsn} entgegen zu wirken, gibt es eine Vielzahl von Versuchsplattformen, so genannten \emph{Testbeds}. Dort können die zu untersuchenden Systeme unter Real- \bzw Laborbedingungen erprobt werden.
+\begin{description}
+
+\item[MoteLab] Dieser Versuchsaufbau wurde 2005 an der Universität von Harvard errichtet und ist eine der ersten und am längsten betriebenen Untersuchungsplattformen für Sensornetze \citep{survey}. Diese besteht aus 190 drahtlos verknüpften \glspl{node}. Dabei kommt die \gqq{MicaZ}-Hardwareplattform zum Einsatz. Diese unterstützt u.a. Licht-, Temperatur-, Luftdruck,- und Beschleunigungssensoren und nutzt das \gls{zigbee} Protokoll im $2,4GHz$ Band zur Kommunikation. Zusätzlich sind die \glspl{node} kabelgebunden mit einem zentralen Server verbunden. Dieser ermöglicht es, die \glspl{node} zu programmieren und Daten mitzuschreiben. Über eine Webschnittstelle können Benutzer auf das Testbed zugreifen und individuelle Anwendungen darauf testen \cite{Motelab}.
+
+\item[Kansei] Diese Plattform setzt sich aus drei Testsystemen zusammen. Hauptbestandteil bildet ein statisches Netz mit 210 \glspl{node} in eimem Labor. Dazu kommt ein Satz an portablen Sensorknoten, der je nach Anwendungsfall zur Messgrößenerfassung an bestimmten Orten eingesetzt werden kann. Des Weiteren gibt es \glspl{node}, die an mobilen Robotern angebracht sind \cite{Kansei}. Die \glspl{node} sind neben Licht-, Temperatur- und Infrarotsensoren auch mit einem Magnetometer und einem Mikrofon ausgestattet. Die Kommunikation findet im $433MHz$ Band statt.
+
+\item[WISEBED] Insgesamt 750 \glspl{node} sind Bestandteil dieses Testbeds. Dabei sind sie in mehrere Gruppen aufgeteilt, die sich an neun verschiedenen Orten in Europa befinden. Die Sensorhardware der einzelnen Gruppen ist unterschiedlich. Alle Sensorknoten könnnen Umgebungsmesswerte wie Licht und Temperatur erfassen, einige besitzen darüber hinaus noch Beschleunigungssensoren. Mit der Ausnahme von zwei Hardwareplattformen, die im $869 MHz$ Band operieren, nutzen die Sensoren das $2,4 GHz$ Band. Die Teilnetze sind über das Internet miteinander verbunden, sodass sich ein hierarchisches \acs{wsn} ergibt \cite{WISEBED}. Die Auswirkungen mehrerer Netzwerkebenen lassen sich so untersuchen.
+
+\end{description}
+ \acp{wsn} werden in  verschiedenen Anwendungsfällen eingesetzt. Genauso vielfältig sind die Anforderungen an die Netze in den einzelnen Szenarien. Forschungen an Sensornetzen in ihrer vorgesehen Umgebung sind daher die logische Folge.
+\begin{description}
+
+\item[Vinelab] In \cite{VineLab} wird ein Sensornetzwerk zur intelligenten Gebäudesteuerung untersucht. Dazu sind 48 \glspl{node} innerhalb eines Gebäudes verteilt.  Die Messung von Temperatur, Licht und Luftfeuchtigkeit an den einzelnen Stellen erlaubt die Erstellung einer Gradientenkarte.
+
+\item[City Sense] Hier sind 100 \glspl{node} vorgesehen, die in der Stadt Cambridge an Laternen und Häusern verteilt werden, um Wetterbedingungen und Luftverschmutzung zu überwachen. Dieses Netzwerk nutzt dabei den \gls{wlan} Standard \gls{80211g} zur Kommunikation \cite{CitySense}.
+
+\item[Oulu Smart] Dieses Projekt erprobt die Integration von Computersystemen in innerstädtischen Gebieten in den Bereichen Kommunikation, Information und Mensch zu Computer Interaktion. Das System in der nordfinnischen Stadt Oulu besteht aus drei Komponenten. Das \emph{panOULU WLAN} bildet aus mehreren \glspl{wlan} eine das gesamte Stadtgebiet überspannende Struktur zum Internetzugang. Zudem stellt \emph{panOULU BT} eine Gruppe von \gls{bluetooth} Netzwerken zur Verfügung. Durch die Kenntnis über den Ort der Zugangspunkte und die begrenzte Reichweite von einigen zehn Metern  können hiermit ortsbezogene Dienste angeboten werden. Die dritte Komponente stellt das \emph{panOULU WS} dar --- ein \acs{wsn}, das die gesammelten Messdaten an großen Bildschirmen öffentlich zugänglich macht. Dabei kommt das \gls{802154} Protokoll sowie \gls{gl:6lowpan} zum Einsatz. Die Messdaten können über mehrere \glspl{node} hinweg zum \acs{ap} übertragen werden \cite{OuluSmart}.
+
+\item[GreenOrbs] Im Rahmen von \emph{GreenOrbs} werden mit 330 Sensorknoten Informationen zur Forstbeobachtung gesammelt. Dabei werden die Messdaten aller \glspl{node} an einer zenralen Datensenke gesammelt. Die Studie \cite{GreenOrbs} zu dieser Struktur wir in \autoref{kap:verwandtearbeiten_sec:2} näher beschrieben.
+
+\end{description} 
+Neben den grundlegenden Untersuchungen in Laborprüfstanden und der realen Umgebung, werden auch technologiespezifische Themen untersucht.
+\begin{description}
+
+\item[Collection Tree Protokoll] In \cite{CTP} werden umfassende Untersuchungen zum \gls{routing} vorgenommen. Ausgehend von der Annahme, dass Daten an verschiedenen Stellen, in verschiedenen \acsp{wsn} gesammelt werden und über weitere übergeordnete Netze weitergeleitet werden, wird hier ein Protokoll zu diesem Zweck untersucht. Dazu werden Messungen auf 13 verschiedenen Testbeds vorgenommen.
+
+\item[Topologie Kontrolle] Um in Sensornetzen mit dichter Anordnung der \glspl{node} --- gerade auch in industriellen Anwendungen --- die nötige Sendeleistung der einzelnen Teilnehmer zu senken, wird in \cite{topology} eine Technik zur optimalen Auslegung der Netzwerktopologie vorgestellt.
+
+\end{description}
+Die Energieeffizienz ist, wie eingangs beschrieben, ein wesentliches Kriterium bei der Entwicklung zukünftiger drahtloser Sensornetze. Daher gibt es auch Untersuchungen, die diesen Aspekt in besonderer Weise aufgreifen. 
+\begin{description}
+
+\item[FlockLab] In diesem Testbed mit 21 \glspl{node} sind diese jeweils auf eine spezielle Überwachungseinheit aufgesteckt. Ziel ist die exakte Überwachung der Software und des Energieverbrauchs. Eine zeitlich genaue Überwachung einzelner Pins der Sensorhardware ist möglich \cite{FlockLab}.
+
+\item[SenseLab] Auch in diesem Testbed ist die Überwachung des Energieverbrauchs an jedem \gls{node} möglich. Das Netzwerk umfasst 1024 Messpunkte, die auf vier Stellen in Frankreich verteilt sind und über das Internet miteinander in Verbindung stehen. Die Sensorhardware ist so ausgelegt, dass die Internetverbindung sowohl kabelgebunden, als auch drahtlos per \acs{wlan} erfolgen kann. \citep{SensLAB}.
+
+\item[XMAC] Hierbei handelt es sich um eine Erweiterung des \gls{802154} Standards hinsichtlich der Verwendung auf Geräten mit extrem reduzierter Leistungsaufnahme \cite{xmac}. Durch eine effizientere Präambeldetektion wird die Zeit, die der Empfänger aktiv auf dem Kanal lauschen muss, deutlich reduziert.
+
+\end{description}
+Abschließend sind im Folgenden drei Arbeiten aufgeführt, die sich speziell mit energieeffizienten, vernetzten Logistiklagern beschäftigen:
+\begin{description}
+
+\item[inBin] In \cite{inBin} wird ein energieautarkes Ladehilfsmittel vorgestellt.
+Der Schwerpunkt liegt dabei auf der Erzeugung der nötigen Energie durch \gls{energyharvesting}
+
+\item[inBin Testbed] \cite{inBinTestbed} befasst sich mit der Untersuchung zur Leistungsstärke eines vernetzten Logistiklagers. Eine genaue Beschreibung folgt in \autoref{kap:verwandtearbeiten_sec:2}
+
+\item[PhyNetLab] Das in \cite{Falkenberg2017b} vorgestellte Testbed  ist darauf ausgerichtet, industrielle Anforderungen in Ergänzung zu typischen \acs{wsn}-Tests zu unterstützen. Exemplarisch wird die Leistungsfähigkeit eines gängigen Kanalzugriffsverfahren evaluiert. Eine genauere Beschreibung folgt ebenfalls in \autoref{kap:verwandtearbeiten_sec:2}
+\end{description}
+
+\section{Drei Projekte im Detail}\label{kap:verwandtearbeiten_sec:2}
+
+Drei Arbeiten, die relevante Aspekte für die Untersuchungen in dieser Arbeit enthalten, werden an dieser Stelle noch einmal ausführlicher beschrieben. Die erste beschäftigt sich mit Skalierungseffekten von \acsp{wsn} im Allgemeinen, während die weiteren den Anwendungsfall in Logistklagern berücksichtigen.
+
+\paragraph{GreenOrbs} Die in \cite{GreenOrbs} beschriebene Studie untersucht die Skalierungseffekte eines Langzeit-Sensornetzwerks unter Realbedingungen am Anwendungsbeispiel des \emph{GreenOrbs} Projektes, wie zuvor erwähnt. Es handelt sich um ein nicht-hierarchisches Netzwerk, bei dem die Informationen per Multi-Hop von den einzelnen \glspl{node} zur Datensenke geleitet werden.  Die Untersuchungen erstrecken sich daher von Routing-Anforderungen bis hin zur Analyse einzelner Verbindungen im Hinblick auf Signalstärke und Paketverlustrate. Die generierten Daten pro \glspl{node} variieren von drei Paketen in einer Stunde bis zu drei Paketen in 200 Sekunden. Der Kanalzugriff erfolgt dabei nach einem Standard \ac{csma} Verfahren\footnote{In \cite{GreenOrbs} wird \emph{TinyOS} als Betriebssystem benannt. Dieses verwendet laut Dokumentation das genannte Verfahren innerhalb des Software Stacks \citep{tinyOS}.}. Eine Betrachtung des Energieverbrauches erfolgt nicht. 
+Die Studie listet drei verschiedene Ursachen für verlorene Pakete auf:
+\begin{itemize}
+	\item Übertragungsabbrüche
+	\item Empfangsspeicher-Überlauf
+	\item Sendespeicher-Überlauf
+\end{itemize}
+Erstere sei mit 61,08 Prozent die wesentliche Ursache \cite{GreenOrbs}. Bezogen darauf stellt sich die hohe Anzahl an Kollisionen als wesentliches Problem heraus. In dem Zusammenhang wird auch auf das \gqq{Hidden-Station-Problem} hingewiesen \cite{GreenOrbs}. Zusammenfassend liege das Problem in der Parallelität der Netzwerkoperationen und müsse beim Entwurf skalierbarer Netzwerkprotokolle weiter untersucht werden \cite{GreenOrbs}.
+
+\paragraph{inBin Testbed} Die Leistungsstärke von \acp{wsn} im Kontext eines Logistiklagers ist Untersuchungsgegenstand in \cite{inBinTestbed}. Die Bedeutung einer energieeffizienten und zuverlässigen Funkkommunikation wird hierbei herausgestellt. Dazu formulieren die Autoren eine Kommunikationsinfrastruktur mit Stern-Topologie als passend für die Anwendung in einem Logistiklager. Alle \glspl{node} kommunizieren direkt mit einem zentralen Server, eine Kommunikation zwischen den \glspl{node} erfolgt nicht. Weiterhin werden zwei verschiedene Arten von Datenverkehr benannt.
+\begin{itemize}
+	\item Hintergrund-Datenverkehr
+	\item Datenverkehr bei Transportanfragen
+\end{itemize}
+Während ersterer in regelmäßigen Abständen von den Frachtcontainern selbst initiiert wird, beschreibt letzterer einen \emph{Request-Response} Prozess ausgehend vom zentralen Server. Neben einem kleinskaligen Versuchsaufbau stellt das Paper Simulationsergebnisse der beschriebenen Szenarios mit 10500 \glspl{node} vor. Als Kommunikationsprotokoll kommt ein \gls{aloha}-ähnliches \citep{aloha} Protokoll zum Einsatz --- mit dem Ergebnis, dass für hohes Datenaufkommen ein alternatives Kanalzugriffverfahren nötig sei \cite{inBinTestbed}.
+
+\paragraph{PhyNetLab} Dieses Testbed ist für die Erprobung von modernen vernetzten Logistikprozessen in einem Warenlager konzipiert. Die energieeffiziente Kommunikation der Frachtcontainer ist hierbei eine wesentliche Komponente. Neben der strukturellen Beschreibung dieses speziellen Szenarios eines Sensornetzes erfolgt eine detaillierte Beschreibung der Hard- und Softwarekomponenten.  Das System besteht aus drei Schichten, so genannten \emph{Layern}.
+\begin{enumerate}
+	\item \emph{Application-Layer}: Zur Datenerhebung, Firmwareverwaltung und Verbindung zu anderen Diensten.
+	\item \emph{Edge-Layer}: \acfp{ap} bilden die Schnittstelle vom Sensornetzwerk zum Internet.
+	\item \emph{Device-Layer}:  Hier sind die intelligenten Frachtcontainer angesiedelt.
+\end{enumerate}
+Während die Dienste des \emph{Application-Layers} auf Internet-\gls{server} ausgelagert werden können, bilden die \acsp{ap} des \emph{Edge-Layers} und die Frachtcontainer als Teil des \emph{Device-Layers} die Komponenten des Sensornetzwerks innerhalb des Logistiklagers: Ein \acs{ap} ist zum einen über eine mobile Internetverbindung mit Geräten des \emph{Application-Layers} verbunden, zum anderen kommuniziert er über zwei separate Netzwerke mit den Frachtcontainern. Eines davon ist ein \gls{zigbee} Netzwerk, welches als Hintergrundnetzwerk fungiert. Hierüber können statistische Daten gesammelt oder Einstellungen an den Frachtcontainern für bestimmte Experimente vorgenommen werden. Darüber hinaus lässt sich über dieses Hintergrundnetzwerk die Firmware der eigentlichen Sensorhardware des Frachtcontainers aktualisieren  \cite{Falkenberg2017b}.
+
+Beispielhaft wird die Leistungsfähigkeit des \acl{lbt} Algorithmus als etabliertes Kanalzugriffverfahren mit dem Testbed untersucht. Dazu sendet ein \acs{ap} eine Anfrage nach einem bestimmten Produkt und die entsprechenden Frachtcontainer antworten. So kommt es zu besonders vielen nahezu gleichzeitigen Zugriffen auf den Funkkanal.
+Dabei kommen ab einer Anzahl von 17 gleichzeitig antwortenden Frachtcontainern bereits weniger als die Hälfte der Antworten am \ac{ap} an. Diese Rate sei für diesen Anwendungsfall noch hinreichend, katastrophal sei dagegen der drastisch steigende Energiebedarf der einzelnen Frachtcontainer \cite{Falkenberg2017b}. Bei zwei beteiligten Sendern steigt der durchschnittliche Energiebedarf um mehr als das Doppelte im Vergleich zu einem Sender. Sind 38 Sender beteiligt, steigt der Energiebedarf um den Faktor 18. Der effiziente Kanalzugriff stelle daher noch Optimierungspotential dar. Das Wissen über die Leistungsfähigkeit des Netzwerks sei auch grundlegend für die Festsetzung der Anzahl an \acsp{ap} im gesamten Lager\\
+\\
+Die vorliegende Arbeit greift die dargelegten Probleme in den genannten Arbeiten auf: Sie untersucht den Kanalzugriff in der Funkkommunikation für den Anwendungsfall in einem Logistiklager unter Berücksichtigung der Energieeffizienz.
+
+
+
+%*****************************************
+%*****************************************
+%*****************************************
+%*****************************************
+%*****************************************
+
+
+
+

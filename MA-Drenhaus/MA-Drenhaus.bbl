@@ -1,0 +1,956 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{none/global/}
+  \entry{aloha}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=AN}{%
+         family={Abramson},
+         familyi={A\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AN1}
+    \strng{fullhash}{AN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the November 17-19, 1970, Fall Joint
+  Computer Conference}
+    \field{title}{The ALOHA system: another alternative for computer
+  communication}
+    \field{year}{1970}
+  \endentry
+
+  \entry{inBin}{article}{}
+    \name{author}{4}{}{%
+      {{hash=EJ}{%
+         family={Emmerich},
+         familyi={E\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Roidl},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BT}{%
+         family={Bich},
+         familyi={B\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=tHM}{%
+         prefix={ten},
+         prefixi={t\bibinitperiod},
+         family={Hompel},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{EJ+1}
+    \strng{fullhash}{EJRMBTHMt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{{E}ntwicklung von energieautarken, intelligenten {L}adehilfen
+  am {B}eispiel des inBin}
+    \field{journaltitle}{Logistics Journal}
+    \field{year}{2012}
+  \endentry
+
+  \entry{inBinTestbed}{inproceedings}{}
+    \name{author}{8}{}{%
+      {{hash=RM}{%
+         family={Roidl},
+         familyi={R\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=EJ}{%
+         family={Emmerich},
+         familyi={E\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=RA}{%
+         family={Riesner},
+         familyi={R\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Masoudinejad},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=KD}{%
+         family={Kaulbars},
+         familyi={K\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=IC}{%
+         family={Ide},
+         familyi={I\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wietfeld},
+         familyi={W\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HMT}{%
+         family={Hompel},
+         familyi={H\bibinitperiod},
+         given={M.\bibnamedelima T.},
+         giveni={M\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RM+1}
+    \strng{fullhash}{RMEJRAMMKDICWCHMT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2014 IEEE/CIC International Conference on Communications
+  in China - Workshops (CIC/ICCC)}
+    \field{title}{Performance Availability Evaluation of Smart Devices in
+  Materials Handling Systems}
+    \field{year}{2014}
+  \endentry
+
+  \entry{xmac}{inproceedings}{}
+    \name{author}{4}{}{%
+      {{hash=NP}{%
+         family={Nguyen},
+         familyi={N\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schappacher},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sikora},
+         familyi={S\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GVF}{%
+         family={Groza},
+         familyi={G\bibinitperiod},
+         given={V.\bibnamedelima F.},
+         giveni={V\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{NP+1}
+    \strng{fullhash}{NPSMSAGVF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2016 IEEE International Instrumentation and Measurement
+  Technology Conference Proceedings}
+    \field{title}{Extensions of the IEEE802.15.4 Protocol for Ultra-Low Energy
+  Real-Time Communication}
+    \field{year}{2016}
+  \endentry
+
+  \entry{GreenOrbs}{article}{}
+    \name{author}{6}{}{%
+      {{hash=LY}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=HY}{%
+         family={He},
+         familyi={H\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=WJ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LK}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LY+1}
+    \strng{fullhash}{LYHYLMWJLKLX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Does Wireless Sensor Network Scale? A Measurement Study on
+  GreenOrbs}
+    \field{journaltitle}{IEEE Transactions on Parallel and Distributed Systems}
+    \field{year}{2013}
+  \endentry
+
+  \entry{ISMBand}{online}{}
+    \name{author}{1}{}{%
+      {{hash=B}{%
+         family={Bundesnetzargentur},
+         familyi={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{B1}
+    \strng{fullhash}{B1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Funkanwendungen auf den ISM-Bändern}
+    \verb{url}
+    \verb http://emf3.bundesnetzagentur.de/pdf/ISM-BNetzA.pdf
+    \endverb
+    \field{year}{2015}
+  \endentry
+
+  \entry{CC1200data}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=IT}{%
+         family={Instruments},
+         familyi={I\bibinitperiod},
+         given={Texas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IT1}
+    \strng{fullhash}{IT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{SWRS123D}
+    \field{note}{Rev. D}
+    \field{title}{CC1200Low-Power, High-Performance RF Transceiver}
+    \field{year}{2014}
+  \endentry
+
+  \entry{MSPdata}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=IT}{%
+         family={Instruments},
+         familyi={I\bibinitperiod},
+         given={Texas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IT1}
+    \strng{fullhash}{IT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{MSP430FR59xx Mixed-Signal Microcontrollers}
+    \field{year}{2017}
+  \endentry
+
+  \entry{CC1200guide}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=IT}{%
+         family={Instruments},
+         familyi={I\bibinitperiod},
+         given={Texas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{IT1}
+    \strng{fullhash}{IT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{SWRU346B}
+    \field{note}{Rev. B}
+    \field{title}{CC120X Low-Power High Performance Sub-1 GHz RF Transceivers
+  Userâ€™s Guide}
+    \field{year}{2013}
+  \endentry
+
+  \entry{oldmodel}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=CF}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=DF}{%
+         family={Dressler},
+         familyi={D\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CFDF1}
+    \strng{fullhash}{CFDF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{6. GI/ITG KuVS Fachgespräche Drahtlose Sensornetze,
+  Poster Session}
+    \field{title}{A Simulation Model of IEEE 802.15.4 in OMNet++}
+    \field{year}{2007}
+  \endentry
+
+  \entry{model}{inproceedings}{}
+    \name{author}{2}{}{%
+      {{hash=KM}{%
+         family={Kirsche},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SM}{%
+         family={Schnurbusch},
+         familyi={S\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KMSM1}
+    \strng{fullhash}{KMSM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proc. of 1st OMNeT++ Community Summit}
+    \field{title}{A New IEEE 802.15.4 Simulation Model for OMNET++ / INET}
+    \field{year}{2014}
+  \endentry
+
+  \entry{batterymodel}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=FLM}{%
+         family={Feeney},
+         familyi={F\bibinitperiod},
+         given={L.\bibnamedelima M.},
+         giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FLM1}
+    \strng{fullhash}{FLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the OMNet++ Community Summit 2016}
+    \field{title}{Towards a better battery model for INET}
+    \field{year}{2016}
+  \endentry
+
+  \entry{survey}{article}{}
+    \name{author}{6}{}{%
+      {{hash=GA}{%
+         family={Gluhak},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=KS}{%
+         family={Krco},
+         familyi={K\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nati},
+         familyi={N\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pfisterer},
+         familyi={P\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MN}{%
+         family={Mitton},
+         familyi={M\bibinitperiod},
+         given={N.},
+         giveni={N\bibinitperiod},
+      }}%
+      {{hash=RT}{%
+         family={Razafindralambo},
+         familyi={R\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GA+1}
+    \strng{fullhash}{GAKSNMPDMNRT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{11}
+    \field{pages}{58\bibrangedash 67}
+    \field{title}{A survey on facilities for experimental internet of things
+  research}
+    \field{volume}{49}
+    \field{journaltitle}{IEEE Communications Magazine}
+    \field{year}{2011}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Motelab}{inproceedings}{}
+    \name{author}{3}{}{%
+      {{hash=WAG}{%
+         family={Werner-Allen},
+         familyi={W\bibinitperiod-A\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Swieskowski},
+         familyi={S\bibinitperiod},
+         given={P.},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Welsh},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WAGSPWM1}
+    \strng{fullhash}{WAGSPWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{IPSN}
+    \field{title}{Motelab: A Wireless Sensor Network Testbed}
+    \field{year}{2005}
+  \endentry
+
+  \entry{Kansei}{article}{}
+    \name{author}{5}{}{%
+      {{hash=AA}{%
+         family={Arora},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=EE}{%
+         family={Ertin},
+         familyi={E\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Ramnath},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nesterenko},
+         familyi={N\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Leal},
+         familyi={L\bibinitperiod},
+         given={W.},
+         giveni={W\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AA+1}
+    \strng{fullhash}{AAEERRNMLW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{2}
+    \field{pages}{35\bibrangedash 47}
+    \field{title}{Kansei: a high-fidelity sensing testbed}
+    \field{volume}{10}
+    \field{journaltitle}{IEEE Internet Computing}
+    \field{year}{2006}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{WISEBED}{inproceedings}{}
+    \name{author}{5}{}{%
+      {{hash=CI}{%
+         family={Chatzigiannakis},
+         familyi={C\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=KC}{%
+         family={Koninis},
+         familyi={K\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=MG}{%
+         family={Mylonas},
+         familyi={M\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=PD}{%
+         family={Pfisterer},
+         familyi={P\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CI+1}
+    \strng{fullhash}{CIFSKCMGPD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Sensor Applications, Experimentation, and Logistics}
+    \field{title}{WISEBED: An Open Large-Scale Wireless Sensor Network Testbed}
+    \field{year}{2010}
+  \endentry
+
+  \entry{VineLab}{online}{}
+    \name{author}{1}{}{%
+      {{hash=oVU}{%
+         prefix={of},
+         prefixi={o\bibinitperiod},
+         family={VA},
+         familyi={V\bibinitperiod},
+         given={Univ.},
+         giveni={U\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VUo1}
+    \strng{fullhash}{VUo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{VineLab Wireless Testbed}
+    \verb{url}
+    \verb http://www.cs.virginia.edu/~whitehouse/research/testbed/
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{CitySense}{misc}{}
+    \name{author}{4}{}{%
+      {{hash=BJ}{%
+         family={Bers},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gosain},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RI}{%
+         family={Rose},
+         familyi={R\bibinitperiod},
+         given={I.},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Welsh},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+1}
+    \strng{fullhash}{BJGARIWM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{CitySense: The Design and Performance of an Urban Wireless
+  Sensor Network Testbed}
+    \field{year}{2010}
+  \endentry
+
+  \entry{OuluSmart}{inproceedings}{}
+    \name{author}{1}{}{%
+      {{hash=OT}{%
+         family={Ojala},
+         familyi={O\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{OT1}
+    \strng{fullhash}{OT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2010 International Conference on Communications and
+  Mobile Computing}
+    \field{pages}{442\bibrangedash 447}
+    \field{title}{Open Urban Testbed for Ubiquitous Computing}
+    \field{volume}{1}
+    \field{year}{2010}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{CTP}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=GO}{%
+         family={Gnawali},
+         familyi={G\bibinitperiod},
+         given={Omprakash},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=FR}{%
+         family={Fonseca},
+         familyi={F\bibinitperiod},
+         given={Rodrigo},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Jamieson},
+         familyi={J\bibinitperiod},
+         given={Kyle},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=KM}{%
+         family={Kazandjieva},
+         familyi={K\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=MD}{%
+         family={Moss},
+         familyi={M\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=LP}{%
+         family={Levis},
+         familyi={L\bibinitperiod},
+         given={Philip},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GO+1}
+    \strng{fullhash}{GOFRJKKMMDLP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{{ACM Transactions on Sensor Networks (TOSN)}}
+    \field{title}{{CTP: An Efficient, Robust, and Reliable Collection Tree
+  Protocol for Wireless Sensor Networks}}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{topology}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CTM}{%
+         family={Chiwewe},
+         familyi={C\bibinitperiod},
+         given={T.\bibnamedelima M.},
+         giveni={T\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=HGP}{%
+         family={Hancke},
+         familyi={H\bibinitperiod},
+         given={G.\bibnamedelima P.},
+         giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CTMHGP1}
+    \strng{fullhash}{CTMHGP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{11\bibrangedash 19}
+    \field{title}{A Distributed Topology Control Technique for Low Interference
+  and Energy Efficiency in Wireless Sensor Networks}
+    \field{volume}{8}
+    \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{FlockLab}{inproceedings}{}
+    \name{author}{7}{}{%
+      {{hash=BJ}{%
+         family={Beutel},
+         familyi={B\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=LR}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Meier},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TL}{%
+         family={Thiele},
+         familyi={T\bibinitperiod},
+         given={L.},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Walser},
+         familyi={W\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=WM}{%
+         family={Woehrle},
+         familyi={W\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=YM}{%
+         family={Yuecel},
+         familyi={Y\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{BJ+2}
+    \strng{fullhash}{BJLRMATLWCWMYM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 7th International Conference on
+  Embedded Networked Sensor Systems}
+    \field{title}{The FlockLab testbed architecture}
+    \field{year}{2009}
+  \endentry
+
+  \entry{SensLAB}{inproceedings}{}
+    \name{author}{6}{}{%
+      {{hash=RCBD}{%
+         family={Rosiers},
+         familyi={R\bibinitperiod},
+         given={C.\bibnamedelima Burin\bibnamedelima Des},
+         giveni={C\bibinitperiod\bibinitdelim B\bibinitperiod\bibinitdelim
+  D\bibinitperiod},
+      }}%
+      {{hash=CG}{%
+         family={Chelius},
+         familyi={C\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=FE}{%
+         family={Fleury},
+         familyi={F\bibinitperiod},
+         given={E.},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fraboulet},
+         familyi={F\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=GA}{%
+         family={Gallais},
+         familyi={G\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=o}{%
+         family={other},
+         familyi={o\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RCBD+1}
+    \strng{fullhash}{RCBDCGFEFAGAo1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proc. 7th International ICST Conference on Testbeds and
+  Research Infrastructures for the Development of Networks and Communities}
+    \field{title}{SensLAB Very Large Scale Open Wireless Sensor Network
+  Testbed}
+    \field{year}{2011}
+  \endentry
+
+  \entry{Falkenberg2017b}{inproceedings}{}
+    \name{author}{8}{}{%
+      {{hash=FR}{%
+         family={Falkenberg},
+         familyi={F\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Masoudinejad},
+         familyi={M\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Buschhoff},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=VAKR}{%
+         family={Venkatapathy},
+         familyi={V\bibinitperiod},
+         given={A.\bibnamedelima K.\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim
+  R\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Friesel},
+         familyi={F\bibinitperiod},
+         given={D.},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=tHM}{%
+         prefix={ten},
+         prefixi={t\bibinitperiod},
+         family={Hompel},
+         familyi={H\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Spinczyk},
+         familyi={S\bibinitperiod},
+         given={O.},
+         giveni={O\bibinitperiod},
+      }}%
+      {{hash=WC}{%
+         family={Wietfeld},
+         familyi={W\bibinitperiod},
+         given={C.},
+         giveni={C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{FR+1}
+    \strng{fullhash}{FRMMBMVAKRFDHMtSOWC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{2017 Federated Conference on Computer Science and
+  Information Systems (FedCSIS)}
+    \field{title}{PhyNetLab: An IoT-Based Warehouse Testbed}
+    \verb{url}
+    \verb https://arxiv.org/abs/1706.09219
+    \endverb
+    \list{location}{1}{%
+      {Prague, Czech Republic}%
+    }
+    \field{year}{2017}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{tinyOS}{online}{}
+    \name{author}{1}{}{%
+      {{hash=GSIN}{%
+         family={Group},
+         familyi={G\bibinitperiod},
+         given={Stanford Information\bibnamedelima Networks},
+         giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim
+  N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GSIN1}
+    \strng{fullhash}{GSIN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{TinyOS Documentation Wiki - CC2420 Layer Descriptions}
+    \verb{url}
+    \verb http://tinyos.stanford.edu/tinyos-wiki/index.php/CC2420_Layer_Descrip
+    \verb tions
+    \endverb
+    \field{year}{2009}
+  \endentry
+
+  \entry{lbt}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=SEE}{%
+         family={Standard},
+         familyi={S\bibinitperiod},
+         given={ETSI\bibnamedelima European},
+         giveni={E\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SEE1}
+    \strng{fullhash}{SEE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{edition}{V2.4.1}
+    \field{title}{ETSI EN 300 220-1: Electromagnetic compatibility and Radio
+  spectrum Matters (ERM); Short Range Devices (SRD); Radio equipment to be used
+  in the 25 MHz to 1 000 MHz frequency range with power levels ranging up to
+  500 mW; Part 1: Technical characteristics and test methods}
+    \field{year}{2012}
+  \endentry
+
+  \entry{ieee}{manual}{}
+    \name{author}{1}{}{%
+      {{hash=SIC}{%
+         family={Society},
+         familyi={S\bibinitperiod},
+         given={IEEE\bibnamedelima Computer},
+         giveni={I\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SIC1}
+    \strng{fullhash}{SIC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{IEEE Standard for Low-Rate Wireless Networks}
+    \field{year}{2015}
+  \endentry
+
+  \entry{epc}{online}{}
+    \name{author}{1}{}{%
+      {{hash=GGSO}{%
+         family={GS1},
+         familyi={G\bibinitperiod},
+         given={Global Standards\bibnamedelima One},
+         giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim
+  O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GGSO1}
+    \strng{fullhash}{GGSO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{EPC Tag Data Standard}
+    \verb{url}
+    \verb https://www.gs1.org/sites/default/files/docs/epc/GS1_EPC_TDS_i1_10.pd
+    \verb f
+    \endverb
+    \field{year}{2017}
+  \endentry
+\endsortlist
+\endinput

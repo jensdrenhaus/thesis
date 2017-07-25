@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage[xindy]{glossaries}
+\makeglossaries
+
+\newglossaryentry{potato}{name={potato},plural={potatoes},
+ description={starchy tuber}}
+\newglossaryentry{cabbage}{name={cabbage},
+ description={vegetable with thick green or purple leaves}}
+\newglossaryentry{carrot}{name={carrot},
+ description={orange root}}
+ 
+\begin{document}
+Chop the \gls{cabbage}, \glspl{potato} and \glspl{carrot}.
+
+\printglossaries
+\end{document}

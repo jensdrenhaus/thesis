@@ -1,0 +1,12 @@
+Messung auf Spec:
+
+Packetdauer:
+PAGE:    8,5ms
+Packet1: 8,0ms
+Packet2: 7,5ms
+
+Abstände(Ende zu Anfang):
+Page->Pkt1: 24,0ms
+Page->Pkt2: 41,0ms
+Pkt1->Pkt2:  9,5ms
+
