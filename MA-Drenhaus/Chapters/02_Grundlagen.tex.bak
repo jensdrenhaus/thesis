@@ -184,7 +184,7 @@ Ein Ansatz, der diesem Problem entgegenwirkt, ist das Versenden von \acs{rts}- u
 In den vorangegangen Abschnitten wurden bereits einige Verfahren beschrieben, die für die erfolgreiche Übermittlung von Informationen in einem Funknetzwerk notwendig sind. Dazu kommen ggf. noch weitere Aspekte, wie die Adressierung der Netzwerkteilnehmer oder das Verlegen und Zusammenfügen von größeren Datenmengen in kleinere Pakete, die für eine Übertragung geeignet sind. Diese Aufgaben werden zum Teil von verschiedenen Protokollen übernommen. Um einen Austausch und eine unabhängige Entwicklung dieser Protokolle zu ermöglichen, werden Protokolle nach den Teilbereichen einer Kommunikation eingeordnet. Dazu existiert das \gls{osi}-Referenzmodell der \acl{iso}. Das Modell besteht aus aufeinander aufbauenden Schichten, den sogenannten \emph{Layern}. Die sieben \emph{Layer} des Modells sind in \autoref{fig:osi} zu sehen.
 \begin{figure}[bth]
         \myfloatalign
-        {\includegraphics[width=0.6\linewidth]{gfx/OSI}} 
+        {\includegraphics[width=0.7\linewidth]{gfx/OSI}} 
         \caption[OSI Referenzmodell]{\gls{osi}-Referenzmodell}\label{fig:osi}
 \end{figure}
 \begin{description}
@@ -206,8 +206,8 @@ Bei Übertragungen wird der Protokollstapel beim Sender von oben nach unten durc
 \end{itemize}
 \begin{figure}[bth]
         \myfloatalign
-        {\includegraphics[width=0.4\linewidth]{gfx/Muster}} 
-        \caption[Dienstprimitiven]{Struktur der Protokollschichten des \gls{802154} Standard}\label{fig:primitiven}
+        {\includegraphics[width=0.7\linewidth]{gfx/Primitiven}} 
+        \caption[Dienstprimitiven]{Mit dem Konzept der Dienst-Primitiven tauschen Protokollschichten Informationen aus}\label{fig:primitiven}
 \end{figure}
 \autoref{fig:primitiven} veranschaulicht  die Art und Weise, wie diese Primitiven eingesetzt werden. Mit \texttt{REQ} fordert Schicht $N$ einen Dienst der darunter liegenden Schicht $N-1$ an. Nach der Bearbeitung in Schicht $N-1$ antwortet diese mit \texttt{CONF}. Andersherum wird eine \texttt{IND} immer von der tieferen Schicht $N-1$ ausgelöst, um die höherliegende Schicht $N$ über ein Ereignis zu informieren. In diesem Fall antwortet $N$ mit \texttt{RESP}. Durchläuft beispielsweise eine Nachricht beim Empfänger den Protokollstapel, wie oben beschrieben, informieren die einzelnen Protokollschichten nach der Verarbeitung der Nachricht die nächst höhere Schicht durch eine \texttt{IND} Primitive.
 Neben den eigentlichen Nutzdaten ist es auch möglich, dass protokolleigene Kommandos über das Medium übertragen werden. Dies ist der Fall, wenn eine Protokollinstanz des einen Gerätes Informationen mit der entsprechenden Protokollinstanz eines anderen Gerätes austauschen muss. Ein Beispiel dafür ist die Anforderung und Zuweisung einer Geräteadresse. Diese Kommandos werden wie gewöhnliche Nutzdaten vom Sender auch an die darunterliegenden Schichten weitergeleitet und über das Medium übertragen. Empfängerseitig durchlaufen sie den Stapel allerdings nur bis zum entsprechenden Protokoll. Auf diese Art werden die vielseitigen Herausforderungen einer erfolgreichen Kommunikation aufgeteilt. 
@@ -215,7 +215,7 @@ Neben den eigentlichen Nutzdaten ist es auch möglich, dass protokolleigene Komm
 \subsection{Der IEEE 802.15.4 Standard}\label{kap:grundlagen_sec:802154}
 \begin{figure}[bth]
         \myfloatalign
-        {\includegraphics[width=0.8\linewidth]{gfx/Muster}} 
+        {\includegraphics[width=0.7\linewidth]{gfx/802154_Stack}} 
         \caption[802.15.4 Protokollstapel]{802.15.4 Protokollstapel. Der Standard definiert die physikalische Schicht sowie die Kanalzugriffschicht. Eingezeichnet sind auch die Schnittstellen (\acsp{sap}) zum Datenaustausch zwischen den  Schichten.}\label{fig:802154_stack}
 \end{figure}
 

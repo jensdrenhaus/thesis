@@ -1,6 +1,6 @@
 ;; This logfile was generated automatically by `xindy'
-;; at 25.07.2017  22:25:36
-;; Indexstyle: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/IwkHOGpfCb", Rawindex: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/mGPp3pGdP8", Output: "MA-Drenhaus.acr"
+;; at 26.07.2017  14:13:27
+;; Indexstyle: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/JdKDeGuihw", Rawindex: "/var/folders/3l/4dn6d3390vx063r9p546st240000gn/T/DY2Pzlnjee", Output: "MA-Drenhaus.acr"
 
 
 Building indexentry-tree:

@@ -8,7 +8,7 @@ Dieses Kapitel gliedert sich in zwei Teile. Im ersten Teil werden zum Zweck der 
 \begin{figure}[bth]
         \myfloatalign
         {\includegraphics[width=1\linewidth]{gfx/uebersicht}} 
-        \caption[Scenario]{Andeutung des Logostikszenarios mit vernetzten Frachtcontainern}\label{fig:lageruebersicht}
+        \caption[Scenario]{Beispiel für ein Logistikszenario mit vernetzten Frachtcontainern. Die Beschriftungen A, B, C stehen für drei verschiedene Produkte}\label{fig:lageruebersicht}
 \end{figure}
 Hauptbestandteil eines intelligenten Logistiklagers sind die Frachtcontainer mit den verschiedenen Gütern. Daneben gibt es Systeme zur Beförderung und Einlagerung der Frachtcontainer, dafür können auch mobile Roboter zu Einsatz kommen, wie in \autoref{fig:lageruebersicht} angedeutet. Dienstprogramme, wie eine automatische Inventarisierung oder Kommissionierung, also das Zusammenstellen von bestimmten Produkten für einen Auftrag, gehören ebenfalls zu  einem selbst organisierten Warenlager. Sowohl die Systeme zur Beförderung als auch die Computer, auf denen die Dienstprogramme ausgeführt werden, müssen in der Lage sein, mit den Frachtcontainern zu kommunizieren. Sie werden damit Teil des Funknetzwerkes. Üblicherweise sind in einen Kommunikationsprozess die Container involviert, die das gleiche Produkt oder eine bestimmte Kategorie an Frachtgütern beinhalten. In \autoref{fig:lageruebersicht} hat \zB gerade ein Kommunikationsprozess bezogen auf das Produkt B begonnen. Charakteristisch ist, dass dabei eine Anfrage von einer Stelle ausgeht und für eine Vielzahl an Empfängern --- den Frachtcontainern --- bestimmt ist, die diese Anfrage beantworten. Von welcher Quelle genau die Anfrage stammt, ist für die Funktion des Kanalzugriffverfahren unerheblich, da sich immer o.g. Muster ergibt. Eine mobile Transporteinheit, die den kürzesten Weg zu einem Produkt finden möchte, oder eine Verfügbarkeitsanfrage über das Internet sind nur zwei Beispiele.
 
@@ -17,7 +17,7 @@ Als Grundlage für die spätere Simulation wird ein Anordnung angenommen, die de
 
 \begin{figure}[bth]
         \myfloatalign
-        {\includegraphics[width=0.4\linewidth]{gfx/anordnung}} 
+        {\includegraphics[width=0.5\linewidth]{gfx/anordnung}} 
         \caption[Anordnung von Frachtcontainern in einem Logistiklager]{Die einzelnen Frachtcontainer werden in einem Logistiklager in Hochregalen zeilenweise eingelagert. Die Grafik zeigt die Aufsicht der Containerpositionen. An der rot markierten Position befindet sich der \acs{ap}}\label{fig:lager}
 \end{figure}
 
